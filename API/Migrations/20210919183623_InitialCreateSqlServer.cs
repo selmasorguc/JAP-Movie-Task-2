@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace API.Data.Migrations
+namespace API.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialCreateSqlServer : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -11,9 +11,9 @@ namespace API.Data.Migrations
                 name: "Actors",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -24,14 +24,14 @@ namespace API.Data.Migrations
                 name: "Movies",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Title = table.Column<string>(type: "TEXT", nullable: true),
-                    Description = table.Column<string>(type: "TEXT", nullable: true),
-                    ReleaseDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    CoverUrl = table.Column<string>(type: "TEXT", nullable: true),
-                    IsMovie = table.Column<bool>(type: "INTEGER", nullable: false),
-                    AverageRating = table.Column<double>(type: "REAL", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CoverUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IsMovie = table.Column<bool>(type: "bit", nullable: false),
+                    AverageRating = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -39,11 +39,26 @@ namespace API.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Username = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PasswordHash = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
+                    PasswordSalt = table.Column<byte[]>(type: "varbinary(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ActorMovie",
                 columns: table => new
                 {
-                    CastId = table.Column<int>(type: "INTEGER", nullable: false),
-                    MoviesId = table.Column<int>(type: "INTEGER", nullable: false)
+                    CastId = table.Column<int>(type: "int", nullable: false),
+                    MoviesId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,10 +81,10 @@ namespace API.Data.Migrations
                 name: "Ratings",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    Value = table.Column<double>(type: "REAL", nullable: false),
-                    MovieId = table.Column<int>(type: "INTEGER", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Value = table.Column<double>(type: "float", nullable: false),
+                    MovieId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -100,6 +115,9 @@ namespace API.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "Ratings");
+
+            migrationBuilder.DropTable(
+                name: "Users");
 
             migrationBuilder.DropTable(
                 name: "Actors");
