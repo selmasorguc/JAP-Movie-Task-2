@@ -1,0 +1,780 @@
+[
+    {
+        "Title": "The Shawnshak Redemption",
+        "ReleaseDate": "1994-02-12",
+        "Description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1630923401/movie%20app/The_Shawshank_Redemption_dbmhch.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Tim Robbins"
+            },
+            {
+                "Name": "Morgan Freeman"
+            },
+            {
+                "Name": "Bob Gunton"
+            }
+        ]
+    },
+    {
+        "Title": "The Godfather",
+        "ReleaseDate": "1972-02-12",
+        "Description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1630923401/movie%20app/The_Godfather_mm8wed.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Marlon Brando"
+            },
+            {
+                "Name": "Al Pacino"
+            },
+            {
+                "Name": "James Caan"
+            }
+        ]
+    },
+    {
+        "Title": "Planet Earth II",
+        "ReleaseDate": "2016-02-12",
+        "Description": "Wildlife documentary series with David Attenborough, beginning with a look at the remote islands which offer sanctuary to some of the planet's rarest creatures, to the beauty of cities, which are home to humans, and animals..",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1630927126/movie%20app/Planet_Earth_II_dkpj2c.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "David Attenborough"
+            },
+            {
+                "Name": "Animals and Plants"
+            }
+        ]
+    },
+    {
+        "Title": "Batman: The Dark Knight",
+        "ReleaseDate": "2008-02-12",
+        "Description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005694/movie%20app/The_Dark_Knight_uamytn.jpg",
+        "Ratings": [
+            {
+                "Value": 4.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Christian Bale"
+            },
+            {
+                "Name": "Heath Ledger"
+            },
+            {
+                "Name": "Aaron Eckhar"
+            }
+        ]
+    },
+    {
+        "Title": "Batman Begins",
+        "ReleaseDate": "2008-02-12",
+        "Description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005694/movie%20app/The_Dark_Knight_uamytn.jpg",
+        "Ratings": [
+            {
+                "Value": 4.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Christian Bale"
+            },
+            {
+                "Name": "Heath Ledger"
+            },
+            {
+                "Name": "Aaron Eckhar"
+            }
+        ]
+    },
+    {
+        "Title": "Angry Men",
+        "ReleaseDate": "1957-02-12",
+        "Description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005691/movie%20app/Angry_Men_sbnhiz.jpg",
+        "Ratings": [
+            {
+                "Value": 4.5
+            },
+            {
+                "Value": 4.7
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Henry Fonda"
+            },
+            {
+                "Name": "Lee J. Cobb"
+            },
+            {
+                "Name": "Martin Balsam"
+            }
+        ]
+    },
+    {
+        "Title": "The Lord of the Rings: The Return of the King",
+        "ReleaseDate": "2003-02-12",
+        "Description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005691/movie%20app/Lord_of_the_rings_ef9rxb.jpg ",
+        "Ratings": [
+            {
+                "Value": 4.6
+            },
+            {
+                "Value": 4.7
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Elijah Wood"
+            },
+            {
+                "Name": "Viggo Mortensen"
+            },
+            {
+                "Name": "Ian McKellen"
+            }
+        ]
+    },
+    {
+        "Title": "Pulp Fiction",
+        "ReleaseDate": "1994-02-12",
+        "Description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005691/movie%20app/Pulp_Fiction_zz7cst.jpg",
+        "Ratings": [
+            {
+                "Value": 4.8
+            },
+            {
+                "Value": 4.2
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "John Travolta"
+            },
+            {
+                "Name": "Uma Thurman"
+            },
+            {
+                "Name": "Samuel L. Jackson"
+            }
+        ]
+    },
+    {
+        "Title": "Fight Club",
+        "ReleaseDate": "1999-02-12",
+        "Description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631005691/movie%20app/Fight_Club_zjpp45.jpg",
+        "Ratings": [
+            {
+                "Value": 4.9
+            },
+            {
+                "Value": 4.2
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Brad Pitt"
+            },
+            {
+                "Name": "Edward Northon"
+            },
+            {
+                "Name": "Meat Loaf"
+            }
+        ]
+    },
+    {
+        "Title": "Breaking Bad",
+        "ReleaseDate": "2008-02-12",
+        "Description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631006602/movie%20app/BreakingBad_nmckyj.jpg",
+        "Ratings": [
+            {
+                "Value": 5.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Bryan Cranston"
+            },
+            {
+                "Name": "Aaron Paul"
+            },
+            {
+                "Name": "Anna Gunn"
+            }
+        ]
+    },
+    {
+        "Title": "Band of Brothers",
+        "ReleaseDate": "2001-02-12",
+        "Description": "The story of Easy Company of the U.S. Army 101st Airborne Division and their mission in World War II Europe, from Operation Overlord to V-J Day.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631008522/movie%20app/Band_of_Brothers_ngdhje.jpg",
+        "Ratings": [
+            {
+                "Value": 3.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Scott Grimes"
+            },
+            {
+                "Name": "Damian Lewis"
+            },
+            {
+                "Name": "Ron Livingston"
+            }
+        ]
+    },
+    {
+        "Title": "Chernobyl",
+        "ReleaseDate": "2019-02-12",
+        "Description": "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631009089/movie%20app/Chernobyl_nx7mlh.jpg",
+        "Ratings": [
+            {
+                "Value": 3.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Jessie Buckley"
+            },
+            {
+                "Name": "Jared Harris"
+            },
+            {
+                "Name": "Stellan Skarsgard"
+            }
+        ]
+    },
+    {
+        "Title": "The Wire",
+        "ReleaseDate": "2002-02-12",
+        "Description": "The Baltimore drug scene, as seen through the eyes of drug dealers and law enforcement.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631009089/movie%20app/The_wire_r2glsi.jpg",
+        "Ratings": [
+            {
+                "Value": 3.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Dominic West"
+            },
+            {
+                "Name": "Lance Reddick"
+            },
+            {
+                "Name": "Sonja Sohn"
+            }
+        ]
+    },
+    {
+        "Title": "AvatarL The Last AirBender",
+        "ReleaseDate": "2005-02-12",
+        "Description": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631009089/movie%20app/Avatar_The_Last_Airbender_yny8wt.jpg",
+        "Ratings": [
+            {
+                "Value": 3.7
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Dee Bradley Baker"
+            },
+            {
+                "Name": "Zach Tyler"
+            },
+            {
+                "Name": "Mae Whitman"
+            }
+        ]
+    },
+    {
+        "Title": "Life is Beautiful",
+        "ReleaseDate": "1997-02-12",
+        "Description": "When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101975/movie%20app/Life_Is_Beautiful_hcrghl.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Roberto Benigni"
+            },
+            {
+                "Name": "icoletta Braschi"
+            }
+        ]
+    },
+    {
+        "Title": "Harry Potter",
+        "ReleaseDate": "2001-02-12",
+        "Description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101975/movie%20app/Harry_Potter_1_cgcy5y.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Daniel Radcliffe"
+            },
+            {
+                "Name": "Richard Harris"
+            },
+            {
+                "Name": "Rupert Grint"
+            }
+        ]
+    },
+    {
+        "Title": "City of God",
+        "ReleaseDate": "2002-02-12",
+        "Description": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/City_of_God_hyjvmw.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Alexandre Rodrigues"
+            },
+            {
+                "Name": "Leandro Firmino"
+            }
+        ]
+    },
+    {
+        "Title": "Inception",
+        "ReleaseDate": "2010-02-12",
+        "Description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/Inception_nky0ew.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Leonardo DiCaprio"
+            },
+            {
+                "Name": "Elliot Page"
+            }
+        ]
+    },
+    {
+        "Title": "One Flew Over the Cuckoo's Nest",
+        "ReleaseDate": "1975-02-12",
+        "Description": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/One_Flew_Over_the_Cuckoo_s_Nest_hd24dw.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Jack Nicholson"
+            },
+            {
+                "Name": "Loise Fletcher"
+            }
+        ]
+    },
+    {
+        "Title": "Seven Samurai",
+        "ReleaseDate": "1954-02-12",
+        "Description": "A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/Seven_Samurai_dtxt1m.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Toshirô Mifune"
+            },
+            {
+                "Name": "Takashi Shimura"
+            }
+        ]
+    },
+    {
+        "Title": "Seven",
+        "ReleaseDate": "1995-02-12",
+        "Description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/Se7en_hcdyi2.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Morgan Freeman"
+            },
+            {
+                "Name": "Brad Pitt"
+            }
+        ]
+    },
+    {
+        "Title": "Goodfellas",
+        "ReleaseDate": "1990-02-12",
+        "Description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/Goodfellas_adhmy2.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Rober De Niro"
+            },
+            {
+                "Name": "Ray Liotta"
+            }
+        ]
+    },
+    {
+        "Title": "Star Wars",
+        "ReleaseDate": "2005-02-12",
+        "Description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/Star_Wars_V_fhdrey.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Mark Hamill"
+            },
+            {
+                "Name": "Harrison Ford"
+            }
+        ]
+    },
+    {
+        "Title": "The Silence of the Lambs",
+        "ReleaseDate": "2005-02-12",
+        "Description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101574/movie%20app/The_Silence_of_the_Lambs_rb00ca.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Jodie Foster"
+            },
+            {
+                "Name": "Anthony Hopkins"
+            }
+        ]
+    },
+    {
+        "Title": "The Matrix",
+        "ReleaseDate": "1999-02-12",
+        "Description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631101575/movie%20app/The_Matrix_rnyufq.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": true,
+        "Cast": [
+            {
+                "Name": "Keanu Reeves"
+            },
+            {
+                "Name": "Laurence Fishburne"
+            }
+        ]
+    },
+    {
+        "Title": "Blue Planet",
+        "ReleaseDate": "2005-02-12",
+        "Description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Blue_Planet_I_qtrqfp.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "David Attenborough"
+            },
+            {
+                "Name": "Peter Drost"
+            }
+        ]
+    },
+    {
+        "Title": "Cosmos",
+        "ReleaseDate": "2005-02-12",
+        "Description": "Astronomer Carl Sagan leads us on an engaging guided tour of the various elements and cosmological theories of the universe.        ",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Cosmos_fcetwl.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Carl"
+            },
+            {
+                "Name": "Jonathan Fahn"
+            }
+        ]
+    },
+    {
+        "Title": "Our Planet",
+        "ReleaseDate": "2019-02-12",
+        "Description": "Documentary series focusing on the breadth of the diversity of habitats around the world, from the remote Arctic wilderness and mysterious deep oceans to the vast landscapes of Africa and diverse jungles of South America.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Our_Planet_vsphj4.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "David Attenborough"
+            },
+            {
+                "Name": "Animals and plants"
+            }
+        ]
+    },
+    {
+        "Title": "Game of Thrones",
+        "ReleaseDate": "2011-02-12",
+        "Description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Game_of_Thrones_p8qzlx.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Kit Harington"
+            },
+            {
+                "Name": "Emilia Clarke"
+            }
+        ]
+    },
+    {
+        "Title": "Cosmos: A Space Time Odyssey",
+        "ReleaseDate": "2014-02-12",
+        "Description": "An exploration of our discovery of the laws of nature and coordinates in space and time.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Cosmos_A_Spacetime_Odyssey_vnu83u.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Neil deGrasse Tyson"
+            },
+            {
+                "Name": "Stoney Emshwiller"
+            }
+        ]
+    },
+    {
+        "Title": "The Sopranos",
+        "ReleaseDate": "1999-02-12",
+        "Description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102334/movie%20app/The_Sopranos_j5iy2f.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "James Gandolfini"
+            },
+            {
+                "Name": "Edie Falco"
+            }
+        ]
+    },
+    {
+        "Title": "Rick and Morty",
+        "ReleaseDate": "2013-02-12",
+        "Description": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+        "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102334/movie%20app/Rick_and_Morty_xacn0t.jpg",
+        "Ratings": [
+            {
+                "Value": 4.0
+            },
+            {
+                "Value": 5.0
+            }
+        ],
+        "IsMovie": false,
+        "Cast": [
+            {
+                "Name": "Justin Roiland"
+            },
+            {
+                "Name": "Chris Parnell"
+            }
+        ]
+    }
+]

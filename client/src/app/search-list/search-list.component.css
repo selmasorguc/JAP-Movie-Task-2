@@ -1,0 +1,12 @@
+form input {
+    color: whitesmoke;
+    min-height: 50px;
+    min-width: 300px;
+  }
+  
+  form button {
+    background-color: #86a8e7;
+    min-height: 50px;
+    margin-left: 1rem;
+  }
+  

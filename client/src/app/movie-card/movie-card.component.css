@@ -1,0 +1,145 @@
+.rating-stars {
+  color: orange;
+  display: block;
+  font-size: 2rem;
+}
+.avg-rating
+{
+  color:orange !important;
+  font-size: 2rem;
+}
+#container {
+  box-shadow: 0 15px 30px 1px black;
+  background: rgb(242, 243, 244);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.product-details {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 50%;
+}
+
+li:not(:first-child)::before {
+  content: '|';
+  color: #398984;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#container .product-details h1 {
+  position: relative;
+  font-size: 30px;
+  color: #344055;
+  margin: 0;
+}
+
+#container .product-details > p {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+.product-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+}
+
+#container img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  background: rgba(27, 26, 26, 0.9);
+  transition: all 0.3s ease-out;
+  transform: translateX(-100%);
+  position: absolute;
+  line-height: 1.8;
+  text-align: left;
+  font-size: 105%;
+  cursor: no-drop;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.info h4 {
+  text-align: center;
+}
+.product-image:hover .info {
+  transform: translateX(0);
+}
+
+.product-image:hover img {
+  transition: all 0.3s ease-out;
+}
+.product-image:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.info p {
+  padding: 0.5em;
+}
+.product-details h6,
+h4,
+ul {
+  color: rgba(27, 26, 26, 0.9);
+}
+.product-details h5 {
+  color: #86a8e7;
+}
+
+hr {
+  color: #344055;
+}
+
+.img-gradient {
+  position: relative;
+  display: inline-block;
+}
+
+@media screen and (max-width: 480px) {
+  h1, h2, h3, h4, h5, h6, ul {
+    text-align: center;
+  }
+  .product-details{
+    display: block;
+    width: 100%;
+    height:55%;
+  }
+  
+  .product-image{
+    display: block;
+    width: 100%;
+    height:45%;
+  }
+
+  #container .product-details h1
+  {
+    font-size: 1.3em;
+  }
+
+  .rating-stars {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .info p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+}

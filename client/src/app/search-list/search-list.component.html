@@ -1,0 +1,20 @@
+<!-- Search button -->
+<div class="container mt-3">
+    <h1 class=" mt-5 mb-4 text-dark text-uppercase">JAP Task 1</h1>
+
+    <form [formGroup]="searchFrom" class="d-flex">
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Look for movies and tv shows" autocomplete="off"
+                formControlName='searchQuery' (keyup)="searchMedia()">
+        </div>
+        <button class="btn" type="submit" (click)="searchMedia()">Search</button>
+    </form>
+</div>
+
+<div class="container">
+    <div class="row m-4">
+        <div *ngFor="let item of media" class="col-lg-6 mb-4">
+            <app-movie-card [movie]="item"></app-movie-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div id="container">
+
+    <div class="product-details">
+
+        <h1>{{movie.title}}</h1>
+
+        <h4>{{movie.releaseDate | date: "yyyy"}}</h4>
+        <rating class="rating-stars" [(ngModel)]="rate" [max]="max" [readonly]="isReadonly"
+            (click)="getRating($event)"></rating>
+        <hr>
+
+        <h5>Cast</h5>
+        <ul class="list-inline">
+            <li class="list-inline-item" *ngFor="let actor of movie.cast">{{actor.name}}</li>
+        </ul>
+        <h5>Rating</h5>
+        <h6 class="avg-rating">{{movie.averageRating}}</h6>
+
+    </div>
+    <ngx-spinner bdColor = "rgba(255, 255, 255, 0.03)" size = "medium" color = "#86A8E7" type = "ball-spin" [fullScreen] = "true"></ngx-spinner>
+
+    <div class="product-image">
+        <img src="{{movie.coverUrl}}" alt="{{movie.title}}">
+        <div class="info">
+            <h4 class="mt-1">About</h4>
+            <h5 class="text-uppercase text-center px-3">{{movie.title}}</h5>
+            <p class="text-center">{{movie.description}}</p>
+        </div>
+    </div>
+
+</div>
