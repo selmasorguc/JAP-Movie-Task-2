@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using API.Entity;
@@ -14,11 +16,30 @@ namespace API.Data
 
             var moviesData = await System.IO.File.ReadAllTextAsync("Data/MovieSeedData.json");
             var movies = JsonSerializer.Deserialize<List<Movie>>(moviesData);
-            
+
             foreach (var movie in movies)
             {
                 context.Add(movie);
             }
+
+            using var hmac = new HMACSHA512();
+
+            var user = new User
+            {
+                Username = "selma",
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes("selma1")),
+                PasswordSalt = hmac.Key
+            };
+
+             context.Users.Add(user);
+
+            // context.Tickets.Add(new Ticket {
+            //     Price = 10.00, 
+            //     MovieId = 32,
+            //     UserId = user.Id, 
+            //     User = user,
+            //     ScreeningId = 3
+            // });
 
             await context.SaveChangesAsync();
         }

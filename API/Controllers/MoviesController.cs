@@ -67,9 +67,6 @@ namespace API.Controllers
             var tvshows = await _movieRepository.GetTVShowsPaged(movieParams);
             return Ok(tvshows);
         }
-
-
-
     }
 
 }

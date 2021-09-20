@@ -14,9 +14,10 @@ namespace API.Extensions
             this IServiceCollection services, IConfiguration config)
         {
             services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
-            services.AddScoped<ITokenService, TokenService>();
             services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));
             services.AddScoped<IMovieRepository, MovieRepository>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<ITicketService, TicketService>();
             services.AddDbContext<DataContext>(options =>
             {
                  options.UseSqlServer(config.GetConnectionString("DefaultConnection"));

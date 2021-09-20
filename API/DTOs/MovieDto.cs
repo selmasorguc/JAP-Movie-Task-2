@@ -15,8 +15,7 @@ namespace API.DTOs
         public bool IsMovie { get; set; }
         public IEnumerable<ActorDto> Cast { get; set; }
         public IEnumerable<Rating> Ratings { get; set; }
-        public double AverageRating { get; set; }
-
+        public IEnumerable<Screening> Screenings { get; set; }
 
     }
 }

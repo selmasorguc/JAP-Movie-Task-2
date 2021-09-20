@@ -15,12 +15,6 @@ namespace API.Entity
         public IEnumerable<Rating> Ratings { get; set; }
         public bool IsMovie { get; set; }
         public IEnumerable<Actor> Cast { get; set; }
-        public double AverageRating { get; set; }
-        public double GetAverageRating()
-        {
-            var ratingAvg = this.Ratings.Average(x => x.Value);
-            return Math.Round(ratingAvg, 1);
-        }
-
+        public IEnumerable<Screening> Screenings { get; set; }
     }
 }

@@ -13,6 +13,9 @@ namespace API.Data
         public DbSet<Actor> Actors { get; set; }
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Screening> Screenings { get; set; }
+
 
     }
 }

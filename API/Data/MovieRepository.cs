@@ -8,7 +8,6 @@ using API.Entity;
 using API.Helpers;
 using API.Interfaces;
 using AutoMapper;
-using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
@@ -27,6 +26,7 @@ namespace API.Data
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
             .Include(m => m.Ratings)
+            .Include(m => m.Screenings)
             .Where(m => m.IsMovie == true)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
             .ToListAsync();
@@ -41,6 +41,7 @@ namespace API.Data
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
             .Include(m => m.Ratings)
+            .Include(m => m.Screenings)
             .Where(m => m.IsMovie == true)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
             .Skip((movieParams.PageNumber - 1) * movieParams.PageSize)
@@ -57,6 +58,7 @@ namespace API.Data
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
             .Include(m => m.Ratings)
+            .Include(m => m.Screenings)
             .Where(m => m.IsMovie == false)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
             .Skip((movieParams.PageNumber - 1) * movieParams.PageSize)
@@ -72,6 +74,7 @@ namespace API.Data
             var movie = await _context.Movies
             .Include(m => m.Cast)
             .Include(m => m.Ratings)
+            .Include(m => m.Screenings)
             .Where(m => m.IsMovie == true)
             .SingleOrDefaultAsync(m => m.Id == id);
             var movieDto = _mapper.Map<MovieDto>(movie);
@@ -79,7 +82,7 @@ namespace API.Data
         }
         public async Task<IEnumerable<MovieDto>> GetTVShowsAsync()
         {
-            var tvshows = await _context.Movies.Include(m => m.Cast)
+            var tvshows = await _context.Movies.Include(m => m.Cast).Include(m => m.Screenings)
             .Include(m => m.Ratings).AsSplitQuery()
             .Where(m => m.IsMovie == false)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
@@ -97,7 +100,7 @@ namespace API.Data
             _context.Ratings.Add(rating);
             _context.Entry(movie).State = EntityState.Modified;
             await _context.SaveChangesAsync();
-            return _mapper.Map<MovieDto>(movie).AverageRating;
+            return movie.Ratings.Select(x => x.Value).Average();
         }
 
         public async Task<bool> SaveAllAsync()

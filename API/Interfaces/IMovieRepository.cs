@@ -8,7 +8,6 @@ namespace API.Interfaces
 {
     public interface IMovieRepository
     {
-
         Task<bool> SaveAllAsync();
         Task<IEnumerable<MovieDto>> GetMoviesAsync();
 

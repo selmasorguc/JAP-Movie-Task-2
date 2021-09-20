@@ -23,6 +23,12 @@
             {
                 "Name": "Bob Gunton"
             }
+        ],
+        "Screenings" : [
+           { 
+            "StartTime": "2021-09-20",
+            "MaxSeatsNumber": 20
+           }
         ]
     },
     {
@@ -49,7 +55,13 @@
             {
                 "Name": "James Caan"
             }
-        ]
+        ],
+        "Screenings" : [
+            { 
+             "StartTime": "2021-09-20",
+             "MaxSeatsNumber": 20
+            }
+         ]
     },
     {
         "Title": "Planet Earth II",
@@ -72,7 +84,13 @@
             {
                 "Name": "Animals and Plants"
             }
-        ]
+        ],
+        "Screenings" : [
+            { 
+             "StartTime": "2021-09-20",
+             "MaxSeatsNumber": 20
+            }
+         ]
     },
     {
         "Title": "Batman: The Dark Knight",
@@ -98,6 +116,9 @@
             {
                 "Name": "Aaron Eckhar"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -124,6 +145,9 @@
             {
                 "Name": "Aaron Eckhar"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -150,7 +174,13 @@
             {
                 "Name": "Martin Balsam"
             }
-        ]
+        ],
+        "Screenings" : [
+            { 
+             "StartTime": "2021-09-20",
+             "MaxSeatsNumber": 20
+            }
+         ]
     },
     {
         "Title": "The Lord of the Rings: The Return of the King",
@@ -176,7 +206,13 @@
             {
                 "Name": "Ian McKellen"
             }
-        ]
+        ],
+        "Screenings" : [
+            { 
+             "StartTime": "2021-09-20",
+             "MaxSeatsNumber": 23
+            }
+         ]
     },
     {
         "Title": "Pulp Fiction",
@@ -202,6 +238,9 @@
             {
                 "Name": "Samuel L. Jackson"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -228,6 +267,9 @@
             {
                 "Name": "Meat Loaf"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -254,6 +296,9 @@
             {
                 "Name": "Anna Gunn"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -280,6 +325,9 @@
             {
                 "Name": "Ron Livingston"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -306,6 +354,9 @@
             {
                 "Name": "Stellan Skarsgard"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -332,6 +383,9 @@
             {
                 "Name": "Sonja Sohn"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -358,6 +412,9 @@
             {
                 "Name": "Mae Whitman"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -381,6 +438,9 @@
             {
                 "Name": "icoletta Braschi"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -407,6 +467,9 @@
             {
                 "Name": "Rupert Grint"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -430,6 +493,9 @@
             {
                 "Name": "Leandro Firmino"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -453,6 +519,9 @@
             {
                 "Name": "Elliot Page"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -476,6 +545,9 @@
             {
                 "Name": "Loise Fletcher"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -499,6 +571,9 @@
             {
                 "Name": "Takashi Shimura"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -522,6 +597,9 @@
             {
                 "Name": "Brad Pitt"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -545,6 +623,9 @@
             {
                 "Name": "Ray Liotta"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -568,6 +649,9 @@
             {
                 "Name": "Harrison Ford"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -591,6 +675,9 @@
             {
                 "Name": "Anthony Hopkins"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -614,6 +701,9 @@
             {
                 "Name": "Laurence Fishburne"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -637,6 +727,9 @@
             {
                 "Name": "Peter Drost"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -660,6 +753,9 @@
             {
                 "Name": "Jonathan Fahn"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -683,6 +779,9 @@
             {
                 "Name": "Animals and plants"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -706,6 +805,9 @@
             {
                 "Name": "Emilia Clarke"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -729,6 +831,9 @@
             {
                 "Name": "Stoney Emshwiller"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -752,6 +857,9 @@
             {
                 "Name": "Edie Falco"
             }
+        ],
+        "Screenings" : [
+           
         ]
     },
     {
@@ -775,6 +883,9 @@
             {
                 "Name": "Chris Parnell"
             }
+        ],
+        "Screenings" : [
+           
         ]
     }
 ]
