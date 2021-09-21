@@ -887,5 +887,1956 @@
         "Screenings" : [
            
         ]
-    }
+    },
+        {
+          "Title": "Digial",
+          "ReleaseDate": "1994-04-24",
+          "Description": "Do duis aliqua fugiat eiusmod do laboris exercitation. Do magna cillum Lorem nisi ut laborum eu anim nulla eiusmod enim.",
+          "CoverUrl": "https://picsum.photos/id/1047/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Humphrey Morin"
+            },
+            {
+              "Name": "Marina Ingram"
+            },
+            {
+              "Name": "Weiss Bass"
+            }
+          ]
+        },
+        {
+          "Title": "Thredz",
+          "ReleaseDate": "1995-09-14",
+          "Description": "Dolore id do excepteur ex cupidatat consectetur est. Et quis eiusmod occaecat quis est aliqua officia excepteur ad.",
+          "CoverUrl": "https://picsum.photos/id/1058/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Washington Kelly"
+            },
+            {
+              "Name": "Hyde Rasmussen"
+            },
+            {
+              "Name": "Alexander Parks"
+            }
+          ]
+        },
+        {
+          "Title": "Shepard",
+          "ReleaseDate": "1990-05-28",
+          "Description": "Eiusmod nulla aliqua proident duis dolor. Culpa consectetur consectetur mollit nisi ipsum ut et.",
+          "CoverUrl": "https://picsum.photos/id/1050/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Jordan Lane"
+            },
+            {
+              "Name": "Thompson Cruz"
+            },
+            {
+              "Name": "Mcmillan Howe"
+            }
+          ]
+        },
+        {
+          "Title": "Eventex",
+          "ReleaseDate": "2013-12-14",
+          "Description": "Nulla commodo laborum magna consequat dolor enim ipsum ipsum veniam. Aliquip aliquip amet aute occaecat ex mollit incididunt irure excepteur ut cillum excepteur ipsum velit.",
+          "CoverUrl": "https://picsum.photos/id/1054/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Hines Johnston"
+            },
+            {
+              "Name": "Rice Bennett"
+            },
+            {
+              "Name": "Mayo Russell"
+            }
+          ]
+        },
+        {
+          "Title": "Opticon",
+          "ReleaseDate": "2016-10-01",
+          "Description": "Ea excepteur dolore dolore exercitation eiusmod nisi ipsum nulla. Est adipisicing voluptate nostrud esse sunt laboris esse ex.",
+          "CoverUrl": "https://picsum.photos/id/1082/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Kim Hogan"
+            },
+            {
+              "Name": "Yvette Cunningham"
+            },
+            {
+              "Name": "Bertie Yang"
+            }
+          ]
+        },
+        {
+          "Title": "Bullzone",
+          "ReleaseDate": "2006-08-28",
+          "Description": "Ex sunt ex non esse dolore voluptate minim ullamco incididunt occaecat. Reprehenderit incididunt ullamco veniam deserunt velit adipisicing labore irure voluptate eu anim fugiat incididunt in.",
+          "CoverUrl": "https://picsum.photos/id/1073/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Reyna Tanner"
+            },
+            {
+              "Name": "Aguilar Walls"
+            },
+            {
+              "Name": "Lawrence Chambers"
+            }
+          ]
+        },
+        {
+          "Title": "Farmage",
+          "ReleaseDate": "2014-07-28",
+          "Description": "Do culpa est duis fugiat non eu enim. Deserunt dolor consequat enim aliquip nulla.",
+          "CoverUrl": "https://picsum.photos/id/1059/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Greene Hunter"
+            },
+            {
+              "Name": "Powers Bolton"
+            },
+            {
+              "Name": "Carey Smith"
+            }
+          ]
+        },
+        {
+          "Title": "Greeker",
+          "ReleaseDate": "2013-01-05",
+          "Description": "Fugiat duis sit magna pariatur et nulla. Eiusmod fugiat ut officia cillum culpa consectetur eiusmod.",
+          "CoverUrl": "https://picsum.photos/id/1065/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Teri Klein"
+            },
+            {
+              "Name": "Bright Rosales"
+            },
+            {
+              "Name": "Carlene Roth"
+            }
+          ]
+        },
+        {
+          "Title": "Zounds",
+          "ReleaseDate": "2018-03-24",
+          "Description": "Id ut laborum qui anim non laborum voluptate tempor consectetur minim aliquip. Cillum laboris aute enim Lorem non incididunt officia consequat officia.",
+          "CoverUrl": "https://picsum.photos/id/1050/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Jacklyn Barlow"
+            },
+            {
+              "Name": "Misty Bird"
+            },
+            {
+              "Name": "Dickson Britt"
+            }
+          ]
+        },
+        {
+          "Title": "Norsup",
+          "ReleaseDate": "2002-04-25",
+          "Description": "Mollit irure ad aliquip id. Ullamco et laborum incididunt veniam id incididunt voluptate incididunt duis elit.",
+          "CoverUrl": "https://picsum.photos/id/1051/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Ferguson Franks"
+            },
+            {
+              "Name": "Holder Moody"
+            },
+            {
+              "Name": "Imogene Humphrey"
+            }
+          ]
+        },
+        {
+          "Title": "Affluex",
+          "ReleaseDate": "1994-02-06",
+          "Description": "Magna reprehenderit consequat eiusmod quis sunt fugiat occaecat nostrud magna amet laborum nulla irure ex. Ea proident quis cillum incididunt exercitation.",
+          "CoverUrl": "https://picsum.photos/id/1068/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Regina Frazier"
+            },
+            {
+              "Name": "Gwen Trevino"
+            },
+            {
+              "Name": "Wilson Solis"
+            }
+          ]
+        },
+        {
+          "Title": "Biolive",
+          "ReleaseDate": "1999-10-06",
+          "Description": "Proident tempor nostrud quis culpa esse cillum magna elit quis duis nisi dolore nostrud esse. Ad duis mollit id dolor proident.",
+          "CoverUrl": "https://picsum.photos/id/1066/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Casandra Cervantes"
+            },
+            {
+              "Name": "Nunez Price"
+            },
+            {
+              "Name": "John Myers"
+            }
+          ]
+        },
+        {
+          "Title": "Digigene",
+          "ReleaseDate": "1999-05-26",
+          "Description": "Elit reprehenderit et reprehenderit sint. Sunt velit deserunt quis irure.",
+          "CoverUrl": "https://picsum.photos/id/1083/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Lindsey Hooper"
+            },
+            {
+              "Name": "Laurel Sears"
+            },
+            {
+              "Name": "Davis Norman"
+            }
+          ]
+        },
+        {
+          "Title": "Ozean",
+          "ReleaseDate": "2015-07-31",
+          "Description": "Deserunt laboris duis proident deserunt commodo commodo ullamco officia ipsum veniam. Excepteur voluptate aliquip ex cillum ullamco aute laborum ad mollit in est ut amet.",
+          "CoverUrl": "https://picsum.photos/id/1057/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Vonda Robinson"
+            },
+            {
+              "Name": "Blankenship Mccarthy"
+            },
+            {
+              "Name": "Bond Steele"
+            }
+          ]
+        },
+        {
+          "Title": "Isodrive",
+          "ReleaseDate": "2010-12-24",
+          "Description": "Consequat anim sunt nulla magna. Nisi aliqua laborum esse sint culpa magna.",
+          "CoverUrl": "https://picsum.photos/id/1069/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Yvonne Mcclure"
+            },
+            {
+              "Name": "Ursula Morrow"
+            },
+            {
+              "Name": "Hunt Munoz"
+            }
+          ]
+        },
+        {
+          "Title": "Collaire",
+          "ReleaseDate": "1995-09-24",
+          "Description": "Ea mollit sint nisi enim aliqua culpa sit id et pariatur. Exercitation irure dolore veniam eiusmod enim.",
+          "CoverUrl": "https://picsum.photos/id/1061/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Sloan Soto"
+            },
+            {
+              "Name": "Suzanne Elliott"
+            },
+            {
+              "Name": "Ramirez Craig"
+            }
+          ]
+        },
+        {
+          "Title": "Zeam",
+          "ReleaseDate": "2019-03-04",
+          "Description": "Sint aute anim Lorem excepteur occaecat aliqua Lorem pariatur aliqua laboris amet dolor quis laborum. Pariatur laborum mollit laborum veniam ad do duis consequat et enim et fugiat aute occaecat.",
+          "CoverUrl": "https://picsum.photos/id/1083/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Velasquez Alvarado"
+            },
+            {
+              "Name": "Gale Lawrence"
+            },
+            {
+              "Name": "Benson Erickson"
+            }
+          ]
+        },
+        {
+          "Title": "Insource",
+          "ReleaseDate": "2015-10-18",
+          "Description": "Enim laboris ad qui nulla ut nulla cupidatat nisi. Id fugiat anim pariatur ut.",
+          "CoverUrl": "https://picsum.photos/id/1071/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Buchanan Mcmillan"
+            },
+            {
+              "Name": "Walters Potts"
+            },
+            {
+              "Name": "Tammi Lee"
+            }
+          ]
+        },
+        {
+          "Title": "Comvex",
+          "ReleaseDate": "2000-06-22",
+          "Description": "Quis nostrud amet duis nisi enim esse nulla excepteur. Officia non mollit reprehenderit veniam occaecat aliqua aliquip proident.",
+          "CoverUrl": "https://picsum.photos/id/1061/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Marie Bradford"
+            },
+            {
+              "Name": "Jensen Duncan"
+            },
+            {
+              "Name": "Maryellen Vega"
+            }
+          ]
+        },
+        {
+          "Title": "Qualitex",
+          "ReleaseDate": "2008-12-10",
+          "Description": "Mollit est excepteur aliquip amet incididunt enim ex aute sit voluptate. Esse dolor velit elit aute velit laborum est laboris qui proident pariatur.",
+          "CoverUrl": "https://picsum.photos/id/1047/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Janice Stein"
+            },
+            {
+              "Name": "Caitlin Freeman"
+            },
+            {
+              "Name": "Joanna Garrett"
+            }
+          ]
+        },
+        {
+          "Title": "Applica",
+          "ReleaseDate": "2001-04-02",
+          "Description": "Sunt officia anim non exercitation proident pariatur sit proident incididunt ad exercitation laboris sit duis. Eiusmod labore occaecat anim ut.",
+          "CoverUrl": "https://picsum.photos/id/1079/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Mcgowan Pollard"
+            },
+            {
+              "Name": "Twila Clay"
+            },
+            {
+              "Name": "Wanda Morris"
+            }
+          ]
+        },
+        {
+          "Title": "Prismatic",
+          "ReleaseDate": "2012-12-23",
+          "Description": "Velit sunt fugiat duis labore non. Duis incididunt deserunt enim id eu nisi velit excepteur.",
+          "CoverUrl": "https://picsum.photos/id/1069/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Alma Buchanan"
+            },
+            {
+              "Name": "Ofelia Murray"
+            },
+            {
+              "Name": "Myrna Cox"
+            }
+          ]
+        },
+        {
+          "Title": "Xyqag",
+          "ReleaseDate": "1995-05-14",
+          "Description": "Reprehenderit voluptate cupidatat elit aliquip anim Lorem aliqua dolor est. Eu aute tempor occaecat sit.",
+          "CoverUrl": "https://picsum.photos/id/1074/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Deirdre Hendrix"
+            },
+            {
+              "Name": "Edwards Nicholson"
+            },
+            {
+              "Name": "Alexandra Crosby"
+            }
+          ]
+        },
+        {
+          "Title": "Fibrodyne",
+          "ReleaseDate": "2002-10-14",
+          "Description": "Reprehenderit et est pariatur nisi ullamco pariatur deserunt eu veniam anim proident eu nostrud ex. Aliquip eiusmod cillum voluptate magna eu excepteur labore sunt commodo consectetur cupidatat adipisicing.",
+          "CoverUrl": "https://picsum.photos/id/1076/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Ann Avery"
+            },
+            {
+              "Name": "Miranda Sparks"
+            },
+            {
+              "Name": "Alfreda Kerr"
+            }
+          ]
+        },
+        {
+          "Title": "Centrexin",
+          "ReleaseDate": "1990-01-09",
+          "Description": "Magna cupidatat nostrud sunt adipisicing eu velit pariatur sit et ullamco. Minim ea in id id do.",
+          "CoverUrl": "https://picsum.photos/id/1060/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Young Morton"
+            },
+            {
+              "Name": "Mara Simpson"
+            },
+            {
+              "Name": "Guy Contreras"
+            }
+          ]
+        },
+        {
+          "Title": "Waretel",
+          "ReleaseDate": "2011-06-10",
+          "Description": "Labore aliquip veniam quis magna nostrud et dolore nostrud veniam laborum ad. Amet anim nostrud commodo sunt irure ipsum ipsum pariatur anim do nisi commodo ullamco ipsum.",
+          "CoverUrl": "https://picsum.photos/id/1066/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Larson Christensen"
+            },
+            {
+              "Name": "Krista Whitehead"
+            },
+            {
+              "Name": "Angel Gonzales"
+            }
+          ]
+        },
+        {
+          "Title": "Terrago",
+          "ReleaseDate": "2003-09-01",
+          "Description": "Eu velit eiusmod irure laborum incididunt nostrud qui exercitation occaecat officia laborum consequat veniam. Est aliquip veniam voluptate do eiusmod cillum et in velit ea commodo elit.",
+          "CoverUrl": "https://picsum.photos/id/1074/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Ruiz Floyd"
+            },
+            {
+              "Name": "Mcclure Mcgee"
+            },
+            {
+              "Name": "Nadine Hewitt"
+            }
+          ]
+        },
+        {
+          "Title": "Earthpure",
+          "ReleaseDate": "2000-10-04",
+          "Description": "Cillum eiusmod incididunt ad enim. Magna ea proident consectetur quis.",
+          "CoverUrl": "https://picsum.photos/id/1064/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Gonzales Hopper"
+            },
+            {
+              "Name": "Stephenson Carter"
+            },
+            {
+              "Name": "Lucas Davis"
+            }
+          ]
+        },
+        {
+          "Title": "Anivet",
+          "ReleaseDate": "2007-09-09",
+          "Description": "Occaecat anim id do eiusmod elit anim laborum. Cupidatat magna ea irure reprehenderit elit.",
+          "CoverUrl": "https://picsum.photos/id/1074/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Taylor Shaw"
+            },
+            {
+              "Name": "Yates Gillespie"
+            },
+            {
+              "Name": "Raquel Larsen"
+            }
+          ]
+        },
+        {
+          "Title": "Farmex",
+          "ReleaseDate": "2009-03-19",
+          "Description": "Anim elit sint est in consectetur mollit deserunt sint aliquip eu anim nostrud pariatur. Nostrud magna culpa elit ut ad irure ad enim ad enim.",
+          "CoverUrl": "https://picsum.photos/id/1056/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Kelley English"
+            },
+            {
+              "Name": "Evangeline Powell"
+            },
+            {
+              "Name": "Reba Bowers"
+            }
+          ]
+        },
+        {
+          "Title": "Adornica",
+          "ReleaseDate": "2018-12-24",
+          "Description": "Exercitation ullamco commodo ipsum officia reprehenderit deserunt aute magna sunt. Ea est Lorem cillum sint proident tempor enim.",
+          "CoverUrl": "https://picsum.photos/id/1064/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Guzman Graves"
+            },
+            {
+              "Name": "Rowena Hull"
+            },
+            {
+              "Name": "Barlow Fletcher"
+            }
+          ]
+        },
+        {
+          "Title": "Powernet",
+          "ReleaseDate": "2009-04-04",
+          "Description": "Et excepteur ut fugiat velit deserunt et non deserunt culpa eu adipisicing. Dolore velit ut magna cillum consequat aliqua et pariatur duis pariatur.",
+          "CoverUrl": "https://picsum.photos/id/1060/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Lee Wilson"
+            },
+            {
+              "Name": "Sarah Macias"
+            },
+            {
+              "Name": "Chelsea Oliver"
+            }
+          ]
+        },
+        {
+          "Title": "Futurize",
+          "ReleaseDate": "2017-11-10",
+          "Description": "Duis pariatur laboris aute deserunt nostrud in anim velit exercitation minim amet. Duis consequat sunt et ex consectetur sunt sunt sint elit aute laborum dolor Lorem dolor.",
+          "CoverUrl": "https://picsum.photos/id/1054/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Ilene Alston"
+            },
+            {
+              "Name": "Lynda Jennings"
+            },
+            {
+              "Name": "Rosalie Drake"
+            }
+          ]
+        },
+        {
+          "Title": "Springbee",
+          "ReleaseDate": "1997-06-16",
+          "Description": "Amet sint laborum laborum ullamco ut amet. Sunt proident commodo tempor anim culpa sit pariatur aliqua ea est duis labore exercitation.",
+          "CoverUrl": "https://picsum.photos/id/1064/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Howe Donaldson"
+            },
+            {
+              "Name": "Melba Oneal"
+            },
+            {
+              "Name": "Georgina Fox"
+            }
+          ]
+        },
+        {
+          "Title": "Organica",
+          "ReleaseDate": "1998-09-25",
+          "Description": "Sit nulla officia mollit dolor elit fugiat veniam quis laborum ex reprehenderit labore fugiat voluptate. Ullamco proident reprehenderit ut anim ex officia proident consectetur.",
+          "CoverUrl": "https://picsum.photos/id/1076/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Guerra Carson"
+            },
+            {
+              "Name": "Cash Marshall"
+            },
+            {
+              "Name": "Gentry Ramos"
+            }
+          ]
+        },
+        {
+          "Title": "Glukgluk",
+          "ReleaseDate": "2000-09-03",
+          "Description": "Qui dolore consectetur sint ex. Ad eiusmod voluptate eu qui eiusmod anim in proident velit pariatur minim sunt.",
+          "CoverUrl": "https://picsum.photos/id/1051/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Annie Schultz"
+            },
+            {
+              "Name": "Natasha Ramirez"
+            },
+            {
+              "Name": "Mcdonald Tillman"
+            }
+          ]
+        },
+        {
+          "Title": "Vertide",
+          "ReleaseDate": "2002-09-06",
+          "Description": "Eu ut consectetur cillum reprehenderit veniam elit ipsum esse quis incididunt laboris voluptate. Laboris consequat eiusmod ullamco tempor consequat voluptate duis fugiat adipisicing est Lorem aute.",
+          "CoverUrl": "https://picsum.photos/id/1054/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Clark Cook"
+            },
+            {
+              "Name": "Sonia Travis"
+            },
+            {
+              "Name": "Janet Ellison"
+            }
+          ]
+        },
+        {
+          "Title": "Maxemia",
+          "ReleaseDate": "1992-09-29",
+          "Description": "Voluptate nisi magna esse ex amet laborum consectetur aliquip veniam culpa. Cupidatat velit amet reprehenderit sunt.",
+          "CoverUrl": "https://picsum.photos/id/1047/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Hoover Cobb"
+            },
+            {
+              "Name": "Casey Garcia"
+            },
+            {
+              "Name": "Melendez Donovan"
+            }
+          ]
+        },
+        {
+          "Title": "Zork",
+          "ReleaseDate": "2019-06-09",
+          "Description": "Nisi ad commodo qui velit consequat est ut culpa dolore enim eiusmod officia excepteur. Aliquip incididunt laboris mollit ex.",
+          "CoverUrl": "https://picsum.photos/id/1067/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Trisha Cohen"
+            },
+            {
+              "Name": "Tiffany Compton"
+            },
+            {
+              "Name": "Justice Bernard"
+            }
+          ]
+        },
+        {
+          "Title": "Netagy",
+          "ReleaseDate": "2016-07-07",
+          "Description": "Esse id officia ut occaecat. Magna do fugiat reprehenderit nisi exercitation esse do incididunt ex proident.",
+          "CoverUrl": "https://picsum.photos/id/1058/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Rhea Raymond"
+            },
+            {
+              "Name": "Molly White"
+            },
+            {
+              "Name": "Linda Thomas"
+            }
+          ]
+        },
+        {
+          "Title": "Equitox",
+          "ReleaseDate": "2005-02-03",
+          "Description": "Et voluptate sit magna amet velit ex ipsum incididunt. Nostrud dolor cillum sit dolor occaecat veniam duis veniam.",
+          "CoverUrl": "https://picsum.photos/id/1049/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Vickie Briggs"
+            },
+            {
+              "Name": "Shaw Mitchell"
+            },
+            {
+              "Name": "Wyatt Michael"
+            }
+          ]
+        },
+        {
+          "Title": "Qualitern",
+          "ReleaseDate": "2014-03-26",
+          "Description": "Magna enim anim est labore mollit veniam quis nulla Lorem tempor magna sint aute tempor. Excepteur duis irure commodo reprehenderit cupidatat pariatur dolor reprehenderit do eiusmod ad do.",
+          "CoverUrl": "https://picsum.photos/id/1068/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Berg House"
+            },
+            {
+              "Name": "Rodriquez Adkins"
+            },
+            {
+              "Name": "Meredith Frye"
+            }
+          ]
+        },
+        {
+          "Title": "Virxo",
+          "ReleaseDate": "1991-02-14",
+          "Description": "Est amet cupidatat mollit voluptate mollit magna. Velit aliqua ut adipisicing consequat.",
+          "CoverUrl": "https://picsum.photos/id/1061/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Stevens Carrillo"
+            },
+            {
+              "Name": "Cassie Norris"
+            },
+            {
+              "Name": "Hull Moon"
+            }
+          ]
+        },
+        {
+          "Title": "Enersave",
+          "ReleaseDate": "1999-09-29",
+          "Description": "Aliquip commodo voluptate non duis nulla culpa anim esse enim irure. Minim eu quis est mollit.",
+          "CoverUrl": "https://picsum.photos/id/1063/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Mae Phelps"
+            },
+            {
+              "Name": "Anthony Lynch"
+            },
+            {
+              "Name": "Poole Ward"
+            }
+          ]
+        },
+        {
+          "Title": "Ecolight",
+          "ReleaseDate": "2018-11-02",
+          "Description": "Exercitation veniam non esse deserunt id excepteur est fugiat dolore fugiat eiusmod commodo nostrud. Commodo dolor incididunt consectetur magna commodo do eiusmod irure ea deserunt.",
+          "CoverUrl": "https://picsum.photos/id/1067/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Roach Prince"
+            },
+            {
+              "Name": "Dee Moses"
+            },
+            {
+              "Name": "Kate Cooper"
+            }
+          ]
+        },
+        {
+          "Title": "Suretech",
+          "ReleaseDate": "2018-02-28",
+          "Description": "Anim magna officia aute sint dolore esse dolor incididunt do ad excepteur. Incididunt nisi consectetur tempor Lorem dolore veniam laborum esse ad ad occaecat.",
+          "CoverUrl": "https://picsum.photos/id/1047/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Landry Potter"
+            },
+            {
+              "Name": "Garrett Baxter"
+            },
+            {
+              "Name": "Betsy Harmon"
+            }
+          ]
+        },
+        {
+          "Title": "Comveyer",
+          "ReleaseDate": "2012-05-30",
+          "Description": "Exercitation minim culpa cupidatat duis aliquip adipisicing id et mollit. Nostrud qui dolor deserunt anim eiusmod laboris veniam.",
+          "CoverUrl": "https://picsum.photos/id/1059/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Jerri Gomez"
+            },
+            {
+              "Name": "Stefanie Howell"
+            },
+            {
+              "Name": "Barnett Reid"
+            }
+          ]
+        },
+        {
+          "Title": "Speedbolt",
+          "ReleaseDate": "1992-02-24",
+          "Description": "Veniam anim occaecat cillum nisi amet velit ipsum est. Commodo non proident non et cupidatat magna deserunt voluptate labore esse anim officia.",
+          "CoverUrl": "https://picsum.photos/id/1075/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Bass Vinson"
+            },
+            {
+              "Name": "Kari Petty"
+            },
+            {
+              "Name": "Stanton Villarreal"
+            }
+          ]
+        },
+        {
+          "Title": "Hatology",
+          "ReleaseDate": "2005-05-17",
+          "Description": "Enim irure mollit eu occaecat consequat. Quis proident deserunt aute laboris mollit consequat in deserunt minim est fugiat id.",
+          "CoverUrl": "https://picsum.photos/id/1059/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Beverly Mayo"
+            },
+            {
+              "Name": "Good Webb"
+            },
+            {
+              "Name": "Adriana Santos"
+            }
+          ]
+        },
+        {
+          "Title": "Kidstock",
+          "ReleaseDate": "2007-06-30",
+          "Description": "Sunt exercitation anim aute dolore nostrud consectetur elit in adipisicing excepteur ut incididunt exercitation. Velit aliqua non in nulla adipisicing.",
+          "CoverUrl": "https://picsum.photos/id/1071/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Blanchard Spears"
+            },
+            {
+              "Name": "Gina Harding"
+            },
+            {
+              "Name": "Kirk Gay"
+            }
+          ]
+        },
+        {
+          "Title": "Polarax",
+          "ReleaseDate": "2007-08-23",
+          "Description": "Ad reprehenderit officia cupidatat sint tempor nostrud dolor consequat quis quis. Mollit consequat consequat pariatur voluptate ex proident.",
+          "CoverUrl": "https://picsum.photos/id/1082/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Porter Irwin"
+            },
+            {
+              "Name": "Simone Vance"
+            },
+            {
+              "Name": "Alberta Branch"
+            }
+          ]
+        },
+        {
+          "Title": "Neocent",
+          "ReleaseDate": "1992-11-27",
+          "Description": "Duis nulla reprehenderit deserunt sint minim eiusmod tempor ex magna culpa. Nisi incididunt dolor duis ad esse laborum exercitation consectetur.",
+          "CoverUrl": "https://picsum.photos/id/1067/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Mclaughlin Park"
+            },
+            {
+              "Name": "Enid Mejia"
+            },
+            {
+              "Name": "Holland Atkinson"
+            }
+          ]
+        },
+        {
+          "Title": "Talkalot",
+          "ReleaseDate": "1991-05-31",
+          "Description": "Quis reprehenderit commodo minim laborum sit Lorem eiusmod dolor nulla exercitation ea. Excepteur et velit irure ipsum mollit ullamco anim.",
+          "CoverUrl": "https://picsum.photos/id/1077/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Rita Martinez"
+            },
+            {
+              "Name": "Bethany Pate"
+            },
+            {
+              "Name": "Haley Washington"
+            }
+          ]
+        },
+        {
+          "Title": "Eargo",
+          "ReleaseDate": "2004-05-05",
+          "Description": "Adipisicing excepteur tempor commodo incididunt cillum nisi magna et. Elit laborum consectetur velit occaecat cupidatat reprehenderit ut dolore consectetur veniam.",
+          "CoverUrl": "https://picsum.photos/id/1050/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Kelly Alford"
+            },
+            {
+              "Name": "Lola Hardy"
+            },
+            {
+              "Name": "Stacie Coleman"
+            }
+          ]
+        },
+        {
+          "Title": "Infotrips",
+          "ReleaseDate": "2001-12-23",
+          "Description": "Exercitation officia sunt consequat nulla nulla eu irure. Eiusmod id mollit Lorem Lorem tempor do pariatur duis aliquip.",
+          "CoverUrl": "https://picsum.photos/id/1080/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Carey Flowers"
+            },
+            {
+              "Name": "Acosta Vincent"
+            },
+            {
+              "Name": "Galloway Brown"
+            }
+          ]
+        },
+        {
+          "Title": "Oulu",
+          "ReleaseDate": "2012-07-23",
+          "Description": "In officia dolore sunt amet nisi anim fugiat elit. Occaecat nulla cillum ea irure occaecat labore cupidatat.",
+          "CoverUrl": "https://picsum.photos/id/1053/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Stella Terry"
+            },
+            {
+              "Name": "Noemi Cantrell"
+            },
+            {
+              "Name": "Jessie Heath"
+            }
+          ]
+        },
+        {
+          "Title": "Knowlysis",
+          "ReleaseDate": "2005-11-25",
+          "Description": "Est veniam id tempor voluptate eu proident consectetur sunt nostrud adipisicing. Velit irure ad aliqua exercitation.",
+          "CoverUrl": "https://picsum.photos/id/1066/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Latonya Meyer"
+            },
+            {
+              "Name": "Velez Andrews"
+            },
+            {
+              "Name": "Maryanne Everett"
+            }
+          ]
+        },
+        {
+          "Title": "Kage",
+          "ReleaseDate": "2002-01-14",
+          "Description": "Sunt irure aute sint occaecat sit in esse ullamco et. Aliquip laboris veniam laborum Lorem magna do culpa excepteur nisi veniam irure.",
+          "CoverUrl": "https://picsum.photos/id/1054/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Leila Sawyer"
+            },
+            {
+              "Name": "Sonya Fernandez"
+            },
+            {
+              "Name": "Alta Stout"
+            }
+          ]
+        },
+        {
+          "Title": "Avit",
+          "ReleaseDate": "2010-02-16",
+          "Description": "Consequat enim elit Lorem elit eiusmod non tempor veniam dolor sunt cupidatat anim ullamco nulla. Est quis sit non culpa laboris tempor labore elit est excepteur.",
+          "CoverUrl": "https://picsum.photos/id/1066/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Antonia Rhodes"
+            },
+            {
+              "Name": "June Marsh"
+            },
+            {
+              "Name": "Clara Evans"
+            }
+          ]
+        },
+        {
+          "Title": "Anocha",
+          "ReleaseDate": "2003-12-23",
+          "Description": "Cupidatat laborum fugiat do in et cupidatat excepteur exercitation ut labore nisi. Ad voluptate exercitation mollit culpa labore consectetur qui commodo magna.",
+          "CoverUrl": "https://picsum.photos/id/1055/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Bender Bartlett"
+            },
+            {
+              "Name": "Glenna Perez"
+            },
+            {
+              "Name": "Brigitte Mcfadden"
+            }
+          ]
+        },
+        {
+          "Title": "Zerbina",
+          "ReleaseDate": "2013-05-19",
+          "Description": "Sit sint ex elit irure irure laboris. Mollit voluptate proident deserunt officia incididunt pariatur id.",
+          "CoverUrl": "https://picsum.photos/id/1056/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Deidre Nichols"
+            },
+            {
+              "Name": "Shari Kinney"
+            },
+            {
+              "Name": "Mcpherson Chandler"
+            }
+          ]
+        },
+        {
+          "Title": "Xeronk",
+          "ReleaseDate": "2009-04-10",
+          "Description": "Voluptate minim mollit culpa mollit eiusmod sunt officia consectetur occaecat consequat cupidatat. Tempor quis aute enim deserunt proident amet enim dolore minim.",
+          "CoverUrl": "https://picsum.photos/id/1065/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Monroe Whitney"
+            },
+            {
+              "Name": "Maldonado Gilbert"
+            },
+            {
+              "Name": "Latasha Fry"
+            }
+          ]
+        },
+        {
+          "Title": "Genekom",
+          "ReleaseDate": "2010-08-19",
+          "Description": "Esse ea aliqua occaecat commodo dolor amet. Consectetur labore eiusmod velit occaecat consequat commodo culpa anim dolor irure do dolor laborum.",
+          "CoverUrl": "https://picsum.photos/id/1082/200/300",
+          "Ratings": [
+            {
+              "Value": 2
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Dunlap Pugh"
+            },
+            {
+              "Name": "Hill Padilla"
+            },
+            {
+              "Name": "Noreen Pruitt"
+            }
+          ]
+        },
+        {
+          "Title": "Acrodance",
+          "ReleaseDate": "2007-01-08",
+          "Description": "Deserunt incididunt quis velit ullamco. Et Lorem nisi veniam nostrud id et voluptate consectetur enim voluptate.",
+          "CoverUrl": "https://picsum.photos/id/1075/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Ratliff Wade"
+            },
+            {
+              "Name": "Hall Puckett"
+            },
+            {
+              "Name": "Potter Davenport"
+            }
+          ]
+        },
+        {
+          "Title": "Manglo",
+          "ReleaseDate": "2013-05-29",
+          "Description": "Dolor sint ut esse ullamco consectetur elit quis exercitation ullamco do nulla et. Nulla laborum amet pariatur est dolor laborum Lorem mollit.",
+          "CoverUrl": "https://picsum.photos/id/1065/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Romero Talley"
+            },
+            {
+              "Name": "Rhonda Navarro"
+            },
+            {
+              "Name": "Eunice Kim"
+            }
+          ]
+        },
+        {
+          "Title": "Calcula",
+          "ReleaseDate": "2013-11-25",
+          "Description": "Nisi nostrud occaecat proident eiusmod cillum. Cupidatat enim quis amet consectetur.",
+          "CoverUrl": "https://picsum.photos/id/1077/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Matthews Delgado"
+            },
+            {
+              "Name": "Hardy Olsen"
+            },
+            {
+              "Name": "Carole Dudley"
+            }
+          ]
+        },
+        {
+          "Title": "Vitricomp",
+          "ReleaseDate": "1997-02-27",
+          "Description": "Aliquip elit nostrud enim irure ea cupidatat non non ullamco ex officia minim exercitation ullamco. Ipsum adipisicing do sunt culpa minim quis Lorem aliquip exercitation ea aliqua laborum velit enim.",
+          "CoverUrl": "https://picsum.photos/id/1070/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Meyers Blanchard"
+            },
+            {
+              "Name": "Natalie Castillo"
+            },
+            {
+              "Name": "Louise Schwartz"
+            }
+          ]
+        },
+        {
+          "Title": "Beadzza",
+          "ReleaseDate": "1993-09-06",
+          "Description": "Sit sint quis deserunt aliqua veniam enim sit ea ut non ex minim adipisicing. Dolor id dolor occaecat exercitation qui labore.",
+          "CoverUrl": "https://picsum.photos/id/1047/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Beatriz Watts"
+            },
+            {
+              "Name": "Marlene Craft"
+            },
+            {
+              "Name": "Nicholson Madden"
+            }
+          ]
+        },
+        {
+          "Title": "Geeky",
+          "ReleaseDate": "2007-03-15",
+          "Description": "Mollit nulla velit ea amet irure labore irure ullamco ipsum mollit est esse ad. Ut cupidatat adipisicing ut labore amet est.",
+          "CoverUrl": "https://picsum.photos/id/1079/200/300",
+          "Ratings": [
+            {
+              "Value": 3
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Socorro Rutledge"
+            },
+            {
+              "Name": "Griffith Odom"
+            },
+            {
+              "Name": "Faye Grant"
+            }
+          ]
+        },
+        {
+          "Title": "Zidox",
+          "ReleaseDate": "1993-08-26",
+          "Description": "Consequat irure minim irure consequat id fugiat culpa anim excepteur exercitation tempor irure. Ut non esse qui fugiat elit tempor adipisicing.",
+          "CoverUrl": "https://picsum.photos/id/1063/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 4
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Kara Henderson"
+            },
+            {
+              "Name": "Wooten Mcintosh"
+            },
+            {
+              "Name": "Lenore Macdonald"
+            }
+          ]
+        },
+        {
+          "Title": "Sensate",
+          "ReleaseDate": "2017-04-08",
+          "Description": "Culpa voluptate sunt culpa sit. Aliqua fugiat qui ex anim do sunt adipisicing nostrud dolore aliqua proident.",
+          "CoverUrl": "https://picsum.photos/id/1078/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 1
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Henson Osborn"
+            },
+            {
+              "Name": "Wagner Cotton"
+            },
+            {
+              "Name": "Franco Horn"
+            }
+          ]
+        },
+        {
+          "Title": "Xsports",
+          "ReleaseDate": "2010-12-18",
+          "Description": "Nulla ex id laborum ea anim velit proident culpa. Sit deserunt eiusmod ut enim sint culpa.",
+          "CoverUrl": "https://picsum.photos/id/1054/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 2
+            }
+          ],
+          "IsMovie": false,
+          "Cast": [
+            {
+              "Name": "Short Morgan"
+            },
+            {
+              "Name": "Bette Stephenson"
+            },
+            {
+              "Name": "Fernandez Dean"
+            }
+          ]
+        },
+        {
+          "Title": "Kinetica",
+          "ReleaseDate": "2001-09-17",
+          "Description": "Anim non dolore aliqua pariatur cillum occaecat magna. Nulla occaecat Lorem laborum cillum amet cupidatat aute pariatur do minim ea sunt.",
+          "CoverUrl": "https://picsum.photos/id/1077/200/300",
+          "Ratings": [
+            {
+              "Value": 5
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Sheila Bean"
+            },
+            {
+              "Name": "Reid Mercado"
+            },
+            {
+              "Name": "Marva Wood"
+            }
+          ]
+        },
+        {
+          "Title": "Koogle",
+          "ReleaseDate": "2020-05-16",
+          "Description": "Aliqua velit pariatur mollit cupidatat reprehenderit dolore minim quis do quis aute. Deserunt voluptate excepteur pariatur reprehenderit ullamco officia elit.",
+          "CoverUrl": "https://picsum.photos/id/1049/200/300",
+          "Ratings": [
+            {
+              "Value": 4
+            },
+            {
+              "Value": 5
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Wilkins Watkins"
+            },
+            {
+              "Name": "Kitty Houston"
+            },
+            {
+              "Name": "Anastasia Mendoza"
+            }
+          ]
+        },
+        {
+          "Title": "Liquidoc",
+          "ReleaseDate": "2000-10-11",
+          "Description": "Occaecat ullamco aute id deserunt do. Tempor fugiat esse do nostrud occaecat cillum consectetur aute in mollit labore anim pariatur.",
+          "CoverUrl": "https://picsum.photos/id/1074/200/300",
+          "Ratings": [
+            {
+              "Value": 1
+            },
+            {
+              "Value": 3
+            }
+          ],
+          "IsMovie": true,
+          "Cast": [
+            {
+              "Name": "Trudy Mathews"
+            },
+            {
+              "Name": "Burt Rich"
+            },
+            {
+              "Name": "Pate Wise"
+            }
+          ]
+        }
+      
 ]
