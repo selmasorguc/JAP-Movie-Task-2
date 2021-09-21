@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210920101803_TicketMovieIdAdd")]
-    partial class TicketMovieIdAdd
+    [Migration("20210921085414_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -104,6 +104,23 @@ namespace API.Data.Migrations
                     b.HasIndex("MovieId");
 
                     b.ToTable("Screenings");
+                });
+
+            modelBuilder.Entity("API.Entity.StoredProceduresEntites.Top10Item", b =>
+                {
+                    b.Property<double>("AverageRating")
+                        .HasColumnType("float");
+
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MovieTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalRatings")
+                        .HasColumnType("int");
+
+                    b.ToTable("TopRatedMovies");
                 });
 
             modelBuilder.Entity("API.Entity.Ticket", b =>

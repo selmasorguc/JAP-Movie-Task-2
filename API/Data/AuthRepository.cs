@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Authentication;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -25,50 +26,73 @@ namespace API.Data
             _context = dataContext;
         }
 
-        public async Task<RegisterDto> Login(LogInDto loginDto)
+        public async Task<ServiceResponse<RegisterDto>> Login(LogInDto loginDto)
         {
-            var user = await _context.Users.SingleOrDefaultAsync(u => u.Username == loginDto.Username);
-
-            if (user != null)
+            var serviceResponse = new ServiceResponse<RegisterDto>();
+            try
             {
+                var user = await _context.Users.SingleOrDefaultAsync(u => u.Username == loginDto.Username);
+
                 using var hmac = new HMACSHA512(user.PasswordSalt);
                 var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
 
                 for (int i = 0; i < computedHash.Length; i++)
                 {
-                    if (computedHash[i] != user.PasswordHash[i]) return null;
+                    if (computedHash[i] != user.PasswordHash[i]){
+                        throw new AuthenticationException("Wrong Password");
+                    }
                 }
 
-                return new RegisterDto
+                serviceResponse.Data = new RegisterDto
                 {
                     Username = loginDto.Username,
                     Token = CreateToken(user)
                 };
             }
-            return null;
+            catch (Exception ex)
+            {
+                serviceResponse.Message = ex.Message;
+                serviceResponse.Success = false;
+            }
+
+            return serviceResponse;
         }
 
-        public async Task<RegisterDto> Register(string username, string password)
+        public async Task<ServiceResponse<RegisterDto>> Register(string username, string password)
         {
-            if (await UserExists(username, password)) return null;
-
-            using var hmac = new HMACSHA512();
-
-            var user = new User
+            var serviceResponse = new ServiceResponse<RegisterDto>();
+            try
             {
-                Username = username,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
-                PasswordSalt = hmac.Key
-            };
 
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+                if (await UserExists(username, password))
+                {
+                    throw new ArgumentException(
+                           "User not found");
+                }
+                
+                using var hmac = new HMACSHA512();
 
-            return new RegisterDto
-            {
-                Username = username,
-                Token = CreateToken(user)
-            };
+                var user = new User
+                {
+                    Username = username,
+                    PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
+                    PasswordSalt = hmac.Key
+                };
+
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+
+                serviceResponse.Data = new RegisterDto
+                {
+                    Username = username,
+                    Token = CreateToken(user)
+                };
+            }
+            catch(Exception ex){
+                serviceResponse.Message = ex.Message;
+                serviceResponse.Success = false;
+            }
+            return serviceResponse;
         }
 
         public async Task<bool> UserExists(string username, string password)
@@ -76,7 +100,7 @@ namespace API.Data
             return await _context.Users.AnyAsync(x => x.Username == username);
         }
 
-        
+
         public string CreateToken(User user)
         {
             var claims = new List<Claim>

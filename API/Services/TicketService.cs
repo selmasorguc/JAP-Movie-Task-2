@@ -21,9 +21,9 @@ namespace API.Services
             _context = context;
         }
 
-        public async Task<ServiceResponse<TicketDto>> BuyTicket(TicketDto ticket)
+        public async Task<ServiceResponse<AddTicketDto>> BuyTicket(TicketDto ticket, string username)
         {
-            var serviceResponse = new ServiceResponse<TicketDto>();
+            var serviceResponse = new ServiceResponse<AddTicketDto>();
 
             try
             {
@@ -33,14 +33,16 @@ namespace API.Services
                     throw new ArgumentException(
                         "Movie id is not valid. Are you sure this movie exists in the database?");
                 }
-
-                if (await _context.Users.FirstOrDefaultAsync(x => x.Id == ticket.UserId) == null)
+                
+                var user = await _context.Users.FirstOrDefaultAsync(x => x.Username == username);
+                if (user == null )
                     throw new ArgumentException(
                            "User id is not valid. Are you sure this user exists in the database?");
                 //---
                 
                 var screening = await _context.Screenings
                 .FirstOrDefaultAsync(x => x.Id == ticket.ScreeningId);
+
                 if (screening == null)
                     throw new ArgumentException(
                            "Screening id is not valid. Are you sure this screening exists in the database?");
@@ -48,10 +50,16 @@ namespace API.Services
                 screening.MaxSeatsNumber -= 1;
                 _context.Screenings.Update(screening);
 
-                _context.Tickets.Add(_mapper.Map<Ticket>(ticket));
+                var addTicket = new AddTicketDto{
+                    Price = ticket.Price,
+                    MovieId = ticket.MovieId,
+                    UserId = user.Id,
+                    ScreeningId = screening.Id
+                };
+                _context.Tickets.Add(_mapper.Map<Ticket>(addTicket));
 
                 await _context.SaveChangesAsync();
-                serviceResponse.Data = ticket;
+                serviceResponse.Data = addTicket;
             }
             catch (Exception ex)
             {

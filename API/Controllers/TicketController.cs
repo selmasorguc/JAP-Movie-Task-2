@@ -1,12 +1,15 @@
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using API.DTOs;
 using API.Entity;
 using API.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("tickets")]
     public class TicketController : ControllerBase
@@ -20,11 +23,15 @@ namespace API.Controllers
 
 
         [HttpPost("buy")]
-        public async Task<ActionResult<ServiceResponse<Ticket>>> BuyTicket(TicketDto ticket)
+        public async Task<ActionResult<ServiceResponse<AddTicketDto>>> BuyTicket(TicketDto ticket)
         {
-            var serviceResponse = await _ticketService.BuyTicket(ticket);
+            var username = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var serviceResponse = await _ticketService.BuyTicket(ticket, username);
+
             if (serviceResponse.Data == null) return NotFound(serviceResponse);
-            return Ok(await _ticketService.BuyTicket(ticket));
+            
+            return Ok(serviceResponse);
         }
 
 

@@ -2,6 +2,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using API.DTOs.UserDtos;
+using API.Entity;
 using API.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,20 +22,19 @@ namespace API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<RegisterDto>> Register(string username, string password)
+        public async Task<ActionResult<ServiceResponse<RegisterDto>>> Register(string username, string password)
         {
-            var user = await _authRepo.Register(username, password);
-            if(user == null) return BadRequest("User already registered");
-            return Ok(user);
+            var response = await _authRepo.Register(username, password);
+            if(response.Success == false) return BadRequest(response);
+            return Ok(response);
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<RegisterDto>> Login(LogInDto loginDto)
+        public async Task<ActionResult<ServiceResponse<RegisterDto>>> Login(LogInDto loginDto)
         {
-            var user = await _authRepo.Login(loginDto);
-            if (user == null) return BadRequest("Invalid username or password");
-
-            return Ok(user);
+            var response = await _authRepo.Login(loginDto);
+            if(response.Success == false) return BadRequest(response);
+            return Ok(response);
         }
     }
 }

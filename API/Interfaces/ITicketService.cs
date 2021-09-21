@@ -7,6 +7,6 @@ namespace API.Interfaces
 {
     public interface ITicketService
     {
-        Task<ServiceResponse<TicketDto>> BuyTicket(TicketDto ticket);
+        Task<ServiceResponse<AddTicketDto>> BuyTicket(TicketDto ticket, string username);
     }
 }

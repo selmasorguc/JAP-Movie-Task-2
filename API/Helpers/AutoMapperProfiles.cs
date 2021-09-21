@@ -14,6 +14,9 @@ namespace API.Helpers
             CreateMap<Rating, RatingDto>();
             CreateMap<Ticket, TicketDto>();
             CreateMap<TicketDto, Ticket>();
+            CreateMap<AddTicketDto, Ticket>();
+            CreateMap<AddTicketDto, Ticket>();
+
         }
     }
 }
