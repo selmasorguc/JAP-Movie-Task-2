@@ -1,20 +1,20 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 using API.Helpers;
 
-namespace API.Entity
+namespace API.DTOs
 {
-    public class Screening
+    public class AddScreeningDto
     {
-        public int Id { get; set; }
-
         [DateInFuture]
         public DateTime StartTime { get; set; }
-
-        [Range(0,30)]
-        public int MaxSeatsNumber { get; set; } = 30;
+        public int MaxSeatsNumber { get; set; }
+        
+        [Required]
         public int MovieId { get; set; }
-        public IEnumerable<Ticket> SoldTickets { get; set; }
+
     }
 }

@@ -30,10 +30,19 @@ namespace API.Controllers
             var serviceResponse = await _ticketService.BuyTicket(ticket, username);
 
             if (serviceResponse.Data == null) return NotFound(serviceResponse);
-            
+
             return Ok(serviceResponse);
         }
 
+        [AllowAnonymous]
+        [HttpPost("addScreening")]
+        public async Task<ActionResult<ServiceResponse<AddScreeningDto>>> AddScreening(AddScreeningDto screening)
+        {
+            var serviceResponse = await _ticketService.CreateScreening(screening);
 
+            if (serviceResponse.Data == null) return NotFound(serviceResponse);
+
+            return Ok(serviceResponse);
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace API.Helpers
             CreateMap<TicketDto, Ticket>();
             CreateMap<AddTicketDto, Ticket>();
             CreateMap<Screening, ScreeningDto>();
+            CreateMap<AddScreeningDto, Screening>();
         }
     }
 }
