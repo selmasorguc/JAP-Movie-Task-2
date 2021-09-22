@@ -18,7 +18,7 @@ namespace API.Services
             _mapper = mapper;
             _context = context;
         }
-        
+
         //Buying a ticket for an existing screening
         public async Task<ServiceResponse<AddTicketDto>> BuyTicket(TicketDto ticket, string username)
         {
@@ -43,7 +43,13 @@ namespace API.Services
                     throw new ArgumentException(
                            "Screening id is not valid. Are you sure this screening exists in the database?");
 
+                if (screening.StartTime < DateTime.Today)
+                    throw new ArgumentException(
+                           "Screening is in the past");
+
                 //if the screening exists, add the new ticket and update the screening in the DB
+
+
                 screening.MaxSeatsNumber -= 1;
                 _context.Screenings.Update(screening);
 
@@ -71,7 +77,7 @@ namespace API.Services
         public async Task<ServiceResponse<AddScreeningDto>> CreateScreening(AddScreeningDto screening)
         {
             var serviceResponse = new ServiceResponse<AddScreeningDto>();
-             try
+            try
             {
                 //Check if movie and user exist in the DB
                 if (await _context.Movies.FirstOrDefaultAsync(x => x.Id == screening.MovieId) == null)
