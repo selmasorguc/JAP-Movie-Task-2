@@ -8,8 +8,6 @@ namespace API.Entity
     public class Screening
     {
         public int Id { get; set; }
-
-        [DateInFuture]
         public DateTime StartTime { get; set; }
 
         [Range(0,30)]

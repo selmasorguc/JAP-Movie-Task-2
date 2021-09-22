@@ -9,10 +9,9 @@ namespace API.DTOs
 {
     public class AddScreeningDto
     {
-        [DateInFuture]
         public DateTime StartTime { get; set; }
         public int MaxSeatsNumber { get; set; }
-        
+
         [Required]
         public int MovieId { get; set; }
 
