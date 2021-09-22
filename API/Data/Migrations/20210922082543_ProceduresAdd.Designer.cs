@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210921101948_TopRatedMoviesKeylessEntity")]
-    partial class TopRatedMoviesKeylessEntity
+    [Migration("20210922082543_ProceduresAdd")]
+    partial class ProceduresAdd
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -123,6 +123,34 @@ namespace API.Data.Migrations
                     b.ToTable("TopRatedMovies");
                 });
 
+            modelBuilder.Entity("API.Entity.StoredProceduresEntites.TopScreened", b =>
+                {
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MovieTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalScreenings")
+                        .HasColumnType("int");
+
+                    b.ToTable("TopScreenedMovies");
+                });
+
+            modelBuilder.Entity("API.Entity.StoredProceduresEntites.TopSold", b =>
+                {
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("MovieTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TicketsSold")
+                        .HasColumnType("int");
+
+                    b.ToTable("TopSoldMovies");
+                });
+
             modelBuilder.Entity("API.Entity.Ticket", b =>
                 {
                     b.Property<int>("Id")
@@ -190,11 +218,13 @@ namespace API.Data.Migrations
 
             modelBuilder.Entity("API.Entity.Rating", b =>
                 {
-                    b.HasOne("API.Entity.Movie", null)
+                    b.HasOne("API.Entity.Movie", "Movie")
                         .WithMany("Ratings")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Movie");
                 });
 
             modelBuilder.Entity("API.Entity.Screening", b =>
@@ -209,7 +239,7 @@ namespace API.Data.Migrations
             modelBuilder.Entity("API.Entity.Ticket", b =>
                 {
                     b.HasOne("API.Entity.Screening", "Screening")
-                        .WithMany()
+                        .WithMany("SoldTickets")
                         .HasForeignKey("ScreeningId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -245,6 +275,11 @@ namespace API.Data.Migrations
                     b.Navigation("Ratings");
 
                     b.Navigation("Screenings");
+                });
+
+            modelBuilder.Entity("API.Entity.Screening", b =>
+                {
+                    b.Navigation("SoldTickets");
                 });
 
             modelBuilder.Entity("API.Entity.User", b =>

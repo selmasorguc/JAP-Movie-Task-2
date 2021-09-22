@@ -20,7 +20,7 @@ namespace API.Extensions
             services.AddScoped<IMovieRepository, MovieRepository>();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<ITicketService, TicketService>();
-            services.AddScoped<IMoviesSPService, MoviesSPService>();
+            services.AddScoped<IReportService, ReportService>();
             services.AddDbContext<DataContext>(options =>
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));

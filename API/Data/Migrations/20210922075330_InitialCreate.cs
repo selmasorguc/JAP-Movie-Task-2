@@ -51,6 +51,18 @@ namespace API.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "TopScreenedMovies",
+                columns: table => new
+                {
+                    MovieId = table.Column<int>(type: "int", nullable: false),
+                    MovieTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TotalScreenings = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -197,6 +209,9 @@ namespace API.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "TopRatedMovies");
+
+            migrationBuilder.DropTable(
+                name: "TopScreenedMovies");
 
             migrationBuilder.DropTable(
                 name: "Actors");

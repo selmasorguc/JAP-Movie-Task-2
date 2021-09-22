@@ -33,13 +33,29 @@ namespace API.Data
 
              context.Users.Add(user);
 
-            // context.Tickets.Add(new Ticket {
-            //     Price = 10.00, 
-            //     MovieId = 32,
-            //     UserId = user.Id, 
-            //     User = user,
-            //     ScreeningId = 3
-            // });
+             context.Tickets.Add(new Ticket {
+                Price = 10.00, 
+                MovieId = 32,
+                UserId = user.Id, 
+                User = user,
+                ScreeningId = 3
+            });
+
+            context.Tickets.Add(new Ticket {
+                Price = 10.00, 
+                MovieId = 32,
+                UserId = user.Id, 
+                User = user,
+                ScreeningId = 3
+            });
+
+            context.Tickets.Add(new Ticket {
+                Price = 70.00, 
+                MovieId = 25,
+                UserId = user.Id, 
+                User = user,
+                ScreeningId = 59
+            });
 
             await context.SaveChangesAsync();
         }

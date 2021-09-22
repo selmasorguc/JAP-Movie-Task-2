@@ -14,8 +14,8 @@ namespace API.DTOs
         public string CoverUrl { get; set; }
         public bool IsMovie { get; set; }
         public IEnumerable<ActorDto> Cast { get; set; }
-        public IEnumerable<Rating> Ratings { get; set; }
-        public IEnumerable<Screening> Screenings { get; set; }
+        public IEnumerable<RatingDto> Ratings { get; set; }
+        public IEnumerable<ScreeningDto> Screenings { get; set; }
 
     }
 }

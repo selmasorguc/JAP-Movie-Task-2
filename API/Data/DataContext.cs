@@ -12,6 +12,8 @@ namespace API.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Top10Item>().HasNoKey();
+            modelBuilder.Entity<TopScreened>().HasNoKey();
+            modelBuilder.Entity<TopSold>().HasNoKey();
         }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Actor> Actors { get; set; }
@@ -21,8 +23,15 @@ namespace API.Data
         public DbSet<Screening> Screenings { get; set; }
 
         //Stored Procedures Keyless Tables
+
+        //10 movies with the most ratings, ordered by rating descending 
         public DbSet<Top10Item> TopRatedMovies { get; set; }
 
+        //10 movies with the most screenings ordered by descending, 
+        public DbSet<TopScreened> TopScreenedMovies { get; set; }
+
+        //top movies with the most sold tickets ordered by descending, 
+        public DbSet<TopSold> TopSoldMovies { get; set; }
 
     }
 }

@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
 using API.DTOs;
@@ -56,6 +54,7 @@ namespace API.Services
                     UserId = user.Id,
                     ScreeningId = screening.Id
                 };
+                
                 _context.Tickets.Add(_mapper.Map<Ticket>(addTicket));
 
                 await _context.SaveChangesAsync();

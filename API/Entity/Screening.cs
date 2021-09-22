@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace API.Entity
@@ -11,5 +12,6 @@ namespace API.Entity
         [Range(0,30)]
         public int MaxSeatsNumber { get; set; } = 30;
         public int MovieId { get; set; }
+        public IEnumerable<Ticket> SoldTickets { get; set; }
     }
 }
