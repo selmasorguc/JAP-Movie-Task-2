@@ -1,13 +1,13 @@
-using System.Collections.Generic;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-using API.Entity;
-using Microsoft.EntityFrameworkCore;
-
 namespace API.Data
 {
+    using API.Entity;
+    using Microsoft.EntityFrameworkCore;
+    using System.Collections.Generic;
+    using System.Security.Cryptography;
+    using System.Text;
+    using System.Text.Json;
+    using System.Threading.Tasks;
+
     public class Seeder
     {
         public static async Task SeedData(DataContext context)
@@ -31,28 +31,31 @@ namespace API.Data
                 PasswordSalt = hmac.Key
             };
 
-             context.Users.Add(user);
+            context.Users.Add(user);
 
-             context.Tickets.Add(new Ticket {
-                Price = 10.00, 
+            context.Tickets.Add(new Ticket
+            {
+                Price = 10.00,
                 MovieId = 32,
-                UserId = user.Id, 
+                UserId = user.Id,
                 User = user,
                 ScreeningId = 3
             });
 
-            context.Tickets.Add(new Ticket {
-                Price = 10.00, 
+            context.Tickets.Add(new Ticket
+            {
+                Price = 10.00,
                 MovieId = 32,
-                UserId = user.Id, 
+                UserId = user.Id,
                 User = user,
                 ScreeningId = 3
             });
 
-            context.Tickets.Add(new Ticket {
-                Price = 70.00, 
+            context.Tickets.Add(new Ticket
+            {
+                Price = 70.00,
                 MovieId = 25,
-                UserId = user.Id, 
+                UserId = user.Id,
                 User = user,
                 ScreeningId = 59
             });

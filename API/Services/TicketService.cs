@@ -1,25 +1,26 @@
-using System;
-using System.Threading.Tasks;
-using API.Data;
-using API.DTOs;
-using API.Entity;
-using API.Interfaces;
-using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-
 namespace API.Services
 {
+    using API.Data;
+    using API.DTOs;
+    using API.Entity;
+    using API.Interfaces;
+    using AutoMapper;
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.Threading.Tasks;
+
     public class TicketService : ITicketService
     {
         private readonly DataContext _context;
+
         private readonly IMapper _mapper;
+
         public TicketService(DataContext context, IMapper mapper)
         {
             _mapper = mapper;
             _context = context;
         }
 
-        //Buying a ticket for an existing screening
         public async Task<ServiceResponse<AddTicketDto>> BuyTicket(TicketDto ticket, string username)
         {
             var serviceResponse = new ServiceResponse<AddTicketDto>();
@@ -42,7 +43,7 @@ namespace API.Services
                 if (screening == null)
                     throw new ArgumentException(
                            "Screening id is not valid. Are you sure this screening exists in the database?");
-               
+
                 if (screening.MaxSeatsNumber == 0)
                     throw new ArgumentException(
                            "No available seats. Tickets sold out.");
@@ -78,6 +79,7 @@ namespace API.Services
             }
             return serviceResponse;
         }
+
         public async Task<ServiceResponse<AddScreeningDto>> CreateScreening(AddScreeningDto screening)
         {
             var serviceResponse = new ServiceResponse<AddScreeningDto>();

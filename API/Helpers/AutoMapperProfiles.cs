@@ -1,10 +1,9 @@
-using API.Extensions;
-using API.DTOs;
-using API.Entity;
-using AutoMapper;
-
 namespace API.Helpers
 {
+    using API.DTOs;
+    using API.Entity;
+    using AutoMapper;
+
     public class AutoMapperProfiles : Profile
     {
         public AutoMapperProfiles()

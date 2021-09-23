@@ -1,23 +1,24 @@
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Authentication;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using API.DTOs.UserDtos;
-using API.Entity;
-using API.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
-
 namespace API.Data
 {
+    using API.DTOs.UserDtos;
+    using API.Entity;
+    using API.Interfaces;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.IdentityModel.Tokens;
+    using System;
+    using System.Collections.Generic;
+    using System.IdentityModel.Tokens.Jwt;
+    using System.Security.Authentication;
+    using System.Security.Claims;
+    using System.Security.Cryptography;
+    using System.Text;
+    using System.Threading.Tasks;
+
     public class AuthRepository : IAuthRepository
     {
         private readonly DataContext _context;
+
         private readonly SymmetricSecurityKey _key;
 
         public AuthRepository(DataContext dataContext, IConfiguration config)
@@ -38,7 +39,8 @@ namespace API.Data
 
                 for (int i = 0; i < computedHash.Length; i++)
                 {
-                    if (computedHash[i] != user.PasswordHash[i]){
+                    if (computedHash[i] != user.PasswordHash[i])
+                    {
                         throw new AuthenticationException("Wrong Password");
                     }
                 }
@@ -69,7 +71,7 @@ namespace API.Data
                     throw new ArgumentException(
                            "User not found");
                 }
-                
+
                 using var hmac = new HMACSHA512();
 
                 var user = new User
@@ -88,7 +90,8 @@ namespace API.Data
                     Token = CreateToken(user)
                 };
             }
-            catch(Exception ex){
+            catch (Exception ex)
+            {
                 serviceResponse.Message = ex.Message;
                 serviceResponse.Success = false;
             }
@@ -99,7 +102,6 @@ namespace API.Data
         {
             return await _context.Users.AnyAsync(x => x.Username == username);
         }
-
 
         public string CreateToken(User user)
         {
