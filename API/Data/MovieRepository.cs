@@ -96,7 +96,7 @@ namespace API.Data
         {
             var movie = await _context.Movies
             .Include(m => m.Ratings).FirstOrDefaultAsync(m => m.Id == rating.MovieId);
-        if (movie == null) return 0;
+            if (movie == null) return 0;
             _context.Ratings.Add(rating);
             _context.Entry(movie).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -179,12 +179,12 @@ namespace API.Data
                 }
                 else
                 {
-                   movies.AddRange(await _context.Movies
-                        .Include(m => m.Cast).AsSplitQuery()
-                        .Include(m => m.Ratings)
-                        .Where(m => m.ReleaseDate.Year == numericValue)
-                        .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
-                        .ToListAsync());
+                    movies.AddRange(await _context.Movies
+                         .Include(m => m.Cast).AsSplitQuery()
+                         .Include(m => m.Ratings)
+                         .Where(m => m.ReleaseDate.Year == numericValue)
+                         .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
+                         .ToListAsync());
                 }
             }
 
@@ -193,5 +193,22 @@ namespace API.Data
             return moviesDto;
         }
 
+        public async Task<ServiceResponse<double>> GetAverageRatingAsync(int movieId)
+        {
+            var serviceResponse = new ServiceResponse<double>();
+            try
+            {
+                 var movie = await _context.Movies.Include(m => m.Ratings)
+                                                  .FirstOrDefaultAsync(m => m.Id == movieId);
+                if(movie == null) throw new ArgumentException("Movie does not exist");
+                serviceResponse.Data = movie.Ratings.Select(x => x.Value).Average();
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = ex.Message;
+            }
+            return serviceResponse;
+        }
     }
 }
