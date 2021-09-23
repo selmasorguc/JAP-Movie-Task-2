@@ -1,11 +1,8 @@
-using System.Security.Cryptography;
-using System.Text;
 using System.Threading.Tasks;
 using API.DTOs.UserDtos;
 using API.Entity;
 using API.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -13,7 +10,6 @@ namespace API.Controllers
     [Route("user")]
     public class UserController : ControllerBase
     {
-
         private readonly IAuthRepository _authRepo;
 
         public UserController(IAuthRepository authRepo)

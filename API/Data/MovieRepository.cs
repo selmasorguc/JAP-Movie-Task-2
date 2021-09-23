@@ -201,7 +201,13 @@ namespace API.Data
                 var movie = await _context.Movies.Include(m => m.Ratings)
                                                  .FirstOrDefaultAsync(m => m.Id == movieId);
                 if (movie == null) throw new ArgumentException("Movie does not exist");
-                serviceResponse.Data = movie.Ratings.Select(x => x.Value).Average();
+
+                if(movie.Ratings.Count() == 0)
+                { 
+                    serviceResponse.Data = 0;
+                    serviceResponse.Message = "Movie has no ratings yet";
+                }
+                else serviceResponse.Data = movie.Ratings.Select(x => x.Value).Average();
             }
             catch (Exception ex)
             {

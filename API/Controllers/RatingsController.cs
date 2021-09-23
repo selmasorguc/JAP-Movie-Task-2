@@ -30,8 +30,5 @@ namespace API.Controllers
             return await _movieRepository.RateMovieAsync(rating);
 
         }
-
-
-
     }
 }

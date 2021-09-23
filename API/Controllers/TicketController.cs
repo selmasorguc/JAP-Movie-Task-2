@@ -34,7 +34,8 @@ namespace API.Controllers
             return Ok(serviceResponse);
         }
 
-        [AllowAnonymous]
+        //Not required functionality in JAP Task
+        //Added just to test adding screeing to DB 
         [HttpPost("addScreening")]
         public async Task<ActionResult<ServiceResponse<AddScreeningDto>>> AddScreening(AddScreeningDto screening)
         {

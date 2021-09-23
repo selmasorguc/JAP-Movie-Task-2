@@ -60,6 +60,33 @@ namespace API.Data
                 ScreeningId = 59
             });
 
+            context.Tickets.Add(new Ticket
+            {
+                Price = 13.00,
+                MovieId = 100,
+                UserId = user.Id,
+                User = user,
+                ScreeningId = 36
+            });
+
+            context.Tickets.Add(new Ticket
+            {
+                Price = 13.00,
+                MovieId = 99,
+                UserId = user.Id,
+                User = user,
+                ScreeningId = 42
+            });
+
+            context.Tickets.Add(new Ticket
+            {
+                Price = 13.00,
+                MovieId = 107,
+                UserId = user.Id,
+                User = user,
+                ScreeningId = 49
+            });
+
             await context.SaveChangesAsync();
         }
     }

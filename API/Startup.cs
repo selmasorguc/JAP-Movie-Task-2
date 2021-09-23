@@ -34,30 +34,6 @@ namespace API
 
             services.AddApplicationServices(_config);
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
-                c.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
-                {
-                    Description = "Standard Authorization header using the Bearer scheme. Example: \"bearer {token}\"",
-                    In = ParameterLocation.Header,
-                    Name = "Authorization",
-                    Type = SecuritySchemeType.ApiKey
-                });
-                c.OperationFilter<SecurityRequirementsOperationFilter>();
-            });
-            services.AddCors();
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["TokenKey"])),
-                    ValidateIssuer = false,
-                    ValidateAudience = false
-                };
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

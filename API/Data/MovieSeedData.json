@@ -711,7 +711,7 @@
   },
   {
     "Title": "Blue Planet",
-    "ReleaseDate": "2005-02-12",
+    "ReleaseDate": "1995-02-12",
     "Description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
     "CoverUrl": "https://res.cloudinary.com/selmasorguc/image/upload/v1631102333/movie%20app/Blue_Planet_I_qtrqfp.jpg",
     "Ratings": [
@@ -731,7 +731,16 @@
         "Name": "Peter Drost"
       }
     ],
-    "Screenings": []
+    "Screenings": [
+      {
+        "StartTime": "2001-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2003-02-09",
+        "MaxSeatsNumber": 28
+      }
+    ]
   },
   {
     "Title": "Cosmos",
@@ -755,7 +764,16 @@
         "Name": "Jonathan Fahn"
       }
     ],
-    "Screenings": []
+    "Screenings": [
+      {
+        "StartTime": "2006-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2006-02-09",
+        "MaxSeatsNumber": 28
+      }
+    ]
   },
   {
     "Title": "Our Planet",
@@ -779,7 +797,16 @@
         "Name": "Animals and plants"
       }
     ],
-    "Screenings": []
+    "Screenings": [
+      {
+        "StartTime": "2019-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2019-02-09",
+        "MaxSeatsNumber": 28
+      }
+    ]
   },
   {
     "Title": "Game of Thrones",
@@ -829,7 +856,16 @@
         "Name": "Stoney Emshwiller"
       }
     ],
-    "Screenings": []
+    "Screenings": [
+      {
+        "StartTime": "2014-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2014-02-09",
+        "MaxSeatsNumber": 28
+      }
+    ]
   },
   {
     "Title": "The Sopranos",
@@ -842,6 +878,12 @@
       },
       {
         "Value": 5.0
+      },
+      {
+        "Value": 5.0
+      },
+      {
+        "Value": 3.0
       }
     ],
     "IsMovie": false,
@@ -853,7 +895,16 @@
         "Name": "Edie Falco"
       }
     ],
-    "Screenings": []
+    "Screenings": [
+      {
+        "StartTime": "1999-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2000-02-09",
+        "MaxSeatsNumber": 28
+      }
+    ]
   },
   {
     "Title": "Rick and Morty",
@@ -994,10 +1045,28 @@
     "CoverUrl": "https://picsum.photos/id/1054/200/300",
     "Ratings": [
       {
-        "Value": 2
+        "Value": 5
       },
       {
-        "Value": 2
+        "Value": 5
+      },
+      {
+        "Value": 5
+      },
+      {
+        "Value": 5
+      },
+      {
+        "Value": 4
+      },
+      {
+        "Value": 4
+      },
+      {
+        "Value": 4
+      },
+      {
+        "Value": 4
       }
     ],
     "IsMovie": true,
@@ -1010,6 +1079,16 @@
       },
       {
         "Name": "Mayo Russell"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2013-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2013-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -1595,12 +1674,7 @@
     "Description": "Velit sunt fugiat duis labore non. Duis incididunt deserunt enim id eu nisi velit excepteur.",
     "CoverUrl": "https://picsum.photos/id/1069/200/300",
     "Ratings": [
-      {
-        "Value": 5
-      },
-      {
-        "Value": 2
-      }
+      
     ],
     "IsMovie": true,
     "Cast": [
@@ -1616,6 +1690,21 @@
     ],
     "Screenings": [
       {
+        "StartTime": "2023-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2022-02-02",
+        "MaxSeatsNumber": 22
+      },
+      {
+        "StartTime": "2023-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2022-02-02",
+        "MaxSeatsNumber": 22
+      },{
         "StartTime": "2023-01-01",
         "MaxSeatsNumber": 23
       },
@@ -1757,6 +1846,16 @@
       {
         "Name": "Angel Gonzales"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2011-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2011-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -1782,6 +1881,16 @@
       },
       {
         "Name": "Nadine Hewitt"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2003-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2003-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -1809,6 +1918,16 @@
       {
         "Name": "Lucas Davis"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2000-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2000-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -1835,6 +1954,16 @@
       {
         "Name": "Raquel Larsen"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2007-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2007-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -1860,6 +1989,16 @@
       },
       {
         "Name": "Reba Bowers"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2009-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2009-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -1913,6 +2052,16 @@
       {
         "Name": "Chelsea Oliver"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2009-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2009-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -1938,6 +2087,16 @@
       },
       {
         "Name": "Rosalie Drake"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2022-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -1965,6 +2124,16 @@
       {
         "Name": "Georgina Fox"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2022-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -1991,6 +2160,16 @@
       {
         "Name": "Gentry Ramos"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2023-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2023-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -2016,6 +2195,16 @@
       },
       {
         "Name": "Mcdonald Tillman"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2023-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2023-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -2069,6 +2258,16 @@
       {
         "Name": "Melendez Donovan"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2024-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2024-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -2076,14 +2275,7 @@
     "ReleaseDate": "2019-06-09",
     "Description": "Nisi ad commodo qui velit consequat est ut culpa dolore enim eiusmod officia excepteur. Aliquip incididunt laboris mollit ex.",
     "CoverUrl": "https://picsum.photos/id/1067/200/300",
-    "Ratings": [
-      {
-        "Value": 5
-      },
-      {
-        "Value": 2
-      }
-    ],
+    "Ratings": [],
     "IsMovie": true,
     "Cast": [
       {
@@ -2094,6 +2286,28 @@
       },
       {
         "Name": "Justice Bernard"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2021-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2024-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2025-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -2120,6 +2334,28 @@
       },
       {
         "Name": "Linda Thomas"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2021-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2024-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2025-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -2199,6 +2435,20 @@
       {
         "Name": "Hull Moon"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2021-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -2225,6 +2475,12 @@
       {
         "Name": "Poole Ward"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2000-01-01",
+        "MaxSeatsNumber": 23
+      }
     ]
   },
   {
@@ -2250,6 +2506,16 @@
       },
       {
         "Name": "Kate Cooper"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2025-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
@@ -2916,6 +3182,28 @@
       {
         "Name": "Lenore Macdonald"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2021-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2022-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2024-02-09",
+        "MaxSeatsNumber": 28
+      },
+      {
+        "StartTime": "2025-02-09",
+        "MaxSeatsNumber": 28
+      }
     ]
   },
   {
@@ -2942,6 +3230,12 @@
       {
         "Name": "Franco Horn"
       }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      }
     ]
   },
   {
@@ -2960,6 +3254,16 @@
       },
       {
         "Name": "Fernandez Dean"
+      }
+    ],
+    "Screenings": [
+      {
+        "StartTime": "2020-01-01",
+        "MaxSeatsNumber": 23
+      },
+      {
+        "StartTime": "2021-02-09",
+        "MaxSeatsNumber": 28
       }
     ]
   },
