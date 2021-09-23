@@ -18,7 +18,7 @@ namespace API.Controllers
             _moviesSPService = moviesSPService;
         }
 
-        //10 movies with the most ratings, ordered by rating descending 
+        //return 10 movies with the most ratings, ordered by rating descending 
         [HttpGet("rated")]
         public async Task<ServiceResponse<List<Top10Item>>> GetTopRated()
         {
@@ -27,7 +27,7 @@ namespace API.Controllers
             return response;
         }
 
-        //10 movies with the most screenings ordered by descending
+        //return 10 movies with the most screenings ordered by descending
         [HttpGet("screened")]
         public async Task<ServiceResponse<List<TopScreened>>> GetTopScreened(
                                                               DateTime startDate, DateTime endDate)
@@ -37,7 +37,7 @@ namespace API.Controllers
             return response;
         }
 
-        //movies with the most sold tickets and no ratings
+        //return movies with the most sold tickets and no ratings
         [HttpGet("sold")]
         public async Task<ServiceResponse<List<TopSold>>> GetTopSold()
         {

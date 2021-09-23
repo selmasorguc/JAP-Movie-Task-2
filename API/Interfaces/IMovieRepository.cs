@@ -9,13 +9,13 @@ namespace API.Interfaces
     public interface IMovieRepository
     {
         Task<bool> SaveAllAsync();
-        Task<IEnumerable<MovieDto>> GetMoviesAsync();
+        Task<List<MovieDto>> GetMoviesAsync();
         Task<MovieDto> GetMovieByIdAsync(int id);
-        Task<IEnumerable<MovieDto>> GetTVShowsAsync();
+        Task<List<MovieDto>> GetTVShowsAsync();
         Task<double> RateMovieAsync(Rating rating);
         Task<List<MovieDto>> SearchMediaAsync(string query);
-        Task<IEnumerable<MovieDto>> GetPaged(MovieParams movieParams);
-        Task<IEnumerable<MovieDto>> GetTVShowsPaged(MovieParams movieParams);
+        Task<List<MovieDto>> GetPaged(MovieParams movieParams);
+        Task<List<MovieDto>> GetTVShowsPaged(MovieParams movieParams);
         Task<ServiceResponse<double>> GetAverageRatingAsync(int movieId);
     }
 }

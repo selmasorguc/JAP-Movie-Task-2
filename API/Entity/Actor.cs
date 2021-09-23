@@ -8,6 +8,6 @@ namespace API.Entity
 
         public string Name { get; set; }
 
-        public IEnumerable<Movie> Movies { get; set; }
+        public List<Movie> Movies { get; set; }
     }
 }

@@ -21,7 +21,7 @@ namespace API.Controllers
             _ticketService = ticketService;
         }
 
-
+        //Buying new ticket functionality
         [HttpPost("buy")]
         public async Task<ActionResult<ServiceResponse<AddTicketDto>>> BuyTicket(TicketDto ticket)
         {

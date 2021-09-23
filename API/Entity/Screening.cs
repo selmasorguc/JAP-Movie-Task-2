@@ -15,6 +15,6 @@ namespace API.Entity
 
         public int MovieId { get; set; }
 
-        public IEnumerable<Ticket> SoldTickets { get; set; }
+        public List<Ticket> SoldTickets { get; set; }
     }
 }

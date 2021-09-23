@@ -22,25 +22,25 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovies()
+        public async Task<ActionResult<List<MovieDto>>> GetMovies()
         {
             return Ok(await _movieRepository.GetMoviesAsync());
         }
 
         [HttpGet("/tvshows")]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> GetTVShows()
+        public async Task<ActionResult<List<MovieDto>>> GetTVShows()
         {
             return Ok(await _movieRepository.GetTVShowsAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> GetMovieById(int id)
+        public async Task<ActionResult<List<MovieDto>>> GetMovieById(int id)
         {
             return Ok(await _movieRepository.GetMovieByIdAsync(id));
         }
 
         [HttpGet("search")]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> SearchMoviesAsync(
+        public async Task<ActionResult<List<MovieDto>>> SearchMoviesAsync(
             [FromQuery] string query)
         {
             return Ok(await _movieRepository.SearchMediaAsync(query));
@@ -48,7 +48,7 @@ namespace API.Controllers
 
 
         [HttpGet("paged")]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> GetMoviesPaged(
+        public async Task<ActionResult<List<MovieDto>>> GetMoviesPaged(
             [FromQuery] MovieParams movieParams)
         {
             var movies = await _movieRepository.GetPaged(movieParams);
@@ -56,7 +56,7 @@ namespace API.Controllers
         }
 
         [HttpGet("tvshows/paged")]
-        public async Task<ActionResult<IEnumerable<MovieDto>>> GetTVShowsPaged(
+        public async Task<ActionResult<List<MovieDto>>> GetTVShowsPaged(
             [FromQuery] MovieParams movieParams)
         {
             var tvshows = await _movieRepository.GetTVShowsPaged(movieParams);

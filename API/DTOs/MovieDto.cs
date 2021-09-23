@@ -17,10 +17,10 @@ namespace API.DTOs
 
         public bool IsMovie { get; set; }
 
-        public IEnumerable<ActorDto> Cast { get; set; }
+        public List<ActorDto> Cast { get; set; }
 
-        public IEnumerable<RatingDto> Ratings { get; set; }
+        public List<RatingDto> Ratings { get; set; }
 
-        public IEnumerable<ScreeningDto> Screenings { get; set; }
+        public List<ScreeningDto> Screenings { get; set; }
     }
 }

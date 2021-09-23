@@ -15,12 +15,12 @@ namespace API.Entity
 
         public string CoverUrl { get; set; }
 
-        public IEnumerable<Rating> Ratings { get; set; }
+        public List<Rating> Ratings { get; set; }
 
         public bool IsMovie { get; set; }
 
-        public IEnumerable<Actor> Cast { get; set; }
+        public List<Actor> Cast { get; set; }
 
-        public IEnumerable<Screening> Screenings { get; set; }
+        public List<Screening> Screenings { get; set; }
     }
 }

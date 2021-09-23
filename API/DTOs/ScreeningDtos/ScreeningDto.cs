@@ -13,6 +13,6 @@ namespace API.DTOs
 
         public int MovieId { get; set; }
 
-        public IEnumerable<TicketDto> SoldTickets { get; set; }
+        public List<TicketDto> SoldTickets { get; set; }
     }
 }

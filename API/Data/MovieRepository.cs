@@ -24,7 +24,7 @@ namespace API.Data
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<MovieDto>> GetMoviesAsync()
+        public async Task<List<MovieDto>> GetMoviesAsync()
         {
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
@@ -33,11 +33,11 @@ namespace API.Data
             .Where(m => m.IsMovie == true)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
             .ToListAsync();
-            var moviesDto = _mapper.Map<IEnumerable<MovieDto>>(movies);
+            var moviesDto = _mapper.Map<List<MovieDto>>(movies);
             return moviesDto;
         }
 
-        public async Task<IEnumerable<MovieDto>> GetPaged(MovieParams movieParams)
+        public async Task<List<MovieDto>> GetPaged(MovieParams movieParams)
         {
 
             var movies = await _context.Movies
@@ -49,11 +49,11 @@ namespace API.Data
             .Skip((movieParams.PageNumber - 1) * movieParams.PageSize)
             .Take(movieParams.PageSize)
             .ToListAsync();
-            var moviesDto = _mapper.Map<IEnumerable<MovieDto>>(movies);
+            var moviesDto = _mapper.Map<List<MovieDto>>(movies);
             return moviesDto;
         }
 
-        public async Task<IEnumerable<MovieDto>> GetTVShowsPaged(MovieParams movieParams)
+        public async Task<List<MovieDto>> GetTVShowsPaged(MovieParams movieParams)
         {
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
@@ -64,7 +64,7 @@ namespace API.Data
             .Skip((movieParams.PageNumber - 1) * movieParams.PageSize)
             .Take(movieParams.PageSize)
             .ToListAsync();
-            var moviesDto = _mapper.Map<IEnumerable<MovieDto>>(movies);
+            var moviesDto = _mapper.Map<List<MovieDto>>(movies);
             return moviesDto;
         }
 
@@ -80,14 +80,14 @@ namespace API.Data
             return movieDto;
         }
 
-        public async Task<IEnumerable<MovieDto>> GetTVShowsAsync()
+        public async Task<List<MovieDto>> GetTVShowsAsync()
         {
             var tvshows = await _context.Movies.Include(m => m.Cast).Include(m => m.Screenings)
             .Include(m => m.Ratings).AsSplitQuery()
             .Where(m => m.IsMovie == false)
             .OrderByDescending(x => x.Ratings.Select(x => x.Value).Average())
             .ToListAsync();
-            var tvshowsDto = _mapper.Map<IEnumerable<MovieDto>>(tvshows).ToList();
+            var tvshowsDto = _mapper.Map<List<MovieDto>>(tvshows).ToList();
 
             return tvshowsDto;
         }
@@ -110,6 +110,7 @@ namespace API.Data
 
         public async Task<List<MovieDto>> SearchMediaAsync(string query)
         {
+            //Search title and descritption
             var movies = await _context.Movies
             .Include(m => m.Cast).AsSplitQuery()
             .Include(m => m.Ratings)
@@ -189,10 +190,11 @@ namespace API.Data
             }
 
 
-            var moviesDto = _mapper.Map<IEnumerable<MovieDto>>(movies).ToList();
+            var moviesDto = _mapper.Map<List<MovieDto>>(movies).ToList();
             return moviesDto;
         }
 
+        //Get average rating of a movie with a given movie Id
         public async Task<ServiceResponse<double>> GetAverageRatingAsync(int movieId)
         {
             var serviceResponse = new ServiceResponse<double>();
@@ -202,6 +204,7 @@ namespace API.Data
                                                  .FirstOrDefaultAsync(m => m.Id == movieId);
                 if (movie == null) throw new ArgumentException("Movie does not exist");
 
+                //Check if movie has any ratings
                 if(movie.Ratings.Count() == 0)
                 { 
                     serviceResponse.Data = 0;
