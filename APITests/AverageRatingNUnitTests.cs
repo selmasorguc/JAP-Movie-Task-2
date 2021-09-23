@@ -8,12 +8,7 @@ using System.Threading.Tasks;
 namespace APITests
 {
     [TestFixture]
-    public class ScreeningStartTimeTests
+    public class AverageRatingNUnitTests
     {
-        [Test]
-        public void ScreeningDate_DateInFuture_ReturnTrue()
-        {
-
-        }
     }
 }

@@ -42,6 +42,10 @@ namespace API.Services
                 if (screening == null)
                     throw new ArgumentException(
                            "Screening id is not valid. Are you sure this screening exists in the database?");
+               
+                if (screening.MaxSeatsNumber == 0)
+                    throw new ArgumentException(
+                           "No available seats. Tickets sold out.");
 
                 if (screening.StartTime < DateTime.Today)
                     throw new ArgumentException(

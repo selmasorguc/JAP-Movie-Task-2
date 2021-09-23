@@ -96,7 +96,7 @@ namespace API.Data
         {
             var movie = await _context.Movies
             .Include(m => m.Ratings).FirstOrDefaultAsync(m => m.Id == rating.MovieId);
-            if (movie == null) return 0;
+        if (movie == null) return 0;
             _context.Ratings.Add(rating);
             _context.Entry(movie).State = EntityState.Modified;
             await _context.SaveChangesAsync();
